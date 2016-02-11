@@ -18,10 +18,11 @@
 				padding-top: 20px;
 				padding-bottom: 20px;
 				background: transparent; color: #848484;  border-right: 0px solid #848484;  font-size: 16px;
-				&:hover, &:active { background: transparent;     color: #848484; }
+				transition: all 0.3s ease 0s;
+				&:hover, &:active { background: transparent;     color: #000; }
 			}
 
-				&.active a, &.active:hover a, &.active:focus a { background: transparent; color: #848484;  }
+				&.active a, &.active:hover a, &.active:focus a { background: transparent; color: #000;  }
 			
 			a.btn { padding: 4px 10px; font-size: 16px;      margin-top: 15px; }
 			a.btn-success {
@@ -49,20 +50,49 @@
 		}
 		.container-fluid {
 		       padding-right: 15px;
-    padding-left: 15px
+    		padding-left: 15px
 		}
 		.dropdown-menu { 
-			background: darken( #f8fafb, 10%);
+			background: #F8FAFB;
+			    margin-top: 5px;
+			 li a {padding-bottom: 4px; }
 		}
 		.navbar-nav>.open>a, 
 		.navbar-nav>.open>a:hover, 
 		.navbar-nav>.open>a:focus {
-		    color: #848484;
+		    color: #000;
 		    background-color: #f8fafb;
 		}
 .navbar-nav>.open>a:hover, 
 .navbar-nav>.open>a:focus {
 border: 0; 
 
+
+}	
+	.setting {
+		background: url(../img/setting.png) no-repeat;
+		display: inline-block;
+		width: 25px;
+		height: 24px;
+	}
+
+	.logout {
+		background: url(../img/logout.png) no-repeat;
+		display: inline-block;
+		width: 25px;
+		height: 24px;
+	}
+	i.setting, i.logout {
+		    margin-top: -4px;
+	}
+
+}// end 
+
+.navbar-default .navbar-nav .dropdown-menu li a {
+    padding-top: 10px; 
 }
-	}// end 
+
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 5px; 
+}

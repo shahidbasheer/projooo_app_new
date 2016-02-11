@@ -170,6 +170,7 @@
 	.content	 {
 		padding: 10px 20px 0 20px;
 		    margin-top: 6px;
+		  min-height: 45px; 
 	
 	}
 	.status {
@@ -207,5 +208,47 @@
 	.status--orang {background: #ff9600; color: #fff;  } // orange
 	.status--yellow {background: #f6ff0a; color: #000;  } // yellow
 	.status--draft {background: #848484; color: #fff; } // draft
-	.status--orang {background: #ff9600; } // orange
+	.status--active {background: #21ba45; color: #fff; } // orange
 }//project
+
+
+.busi_work_place{
+	width: 100%; 
+	background: #fff;
+	border: 1px solid #dae4e9;
+	border-radius: 2px;
+	text-align: left;
+	display: inline-block ;
+	margin-bottom: 30px;
+	header {
+		height: 41px;
+		padding: 10px 20px;
+		p {color: #4d4d4d; font-weight: bold; margin-bottom: 0;  }
+		.inactive {color: #ff2e2e; }
+
+		
+	}
+	.content	 {
+		padding: 4px 20px 0 20px;
+		    margin-top: 6px;
+	
+	}
+
+	footer {
+
+		padding: 4px 20px;
+		img {margin-right: 5px;     margin-top: -3px; }
+		h4 {font-weight: 400; font-size: 28px; color: #4d4d4d; margin-bottom: 6px;  }
+		p {color: #8d99a5; font-size: 14px; }
+		i {    margin-top: 6px; float: right;     font-size: 18px; }
+		
+		.active {
+			color: #03e00d;
+
+		}
+		.inactive {
+			color: #4d4d4d;
+			
+		}
+	}
+}
