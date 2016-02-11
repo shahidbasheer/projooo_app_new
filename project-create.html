@@ -17,7 +17,10 @@
             <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
             <link rel="stylesheet" href="css/animate.css">
             <link rel="stylesheet" href="css/dropzone.css">
-            <link rel="stylesheet" href="css/style.min.css">
+            <link rel="stylesheet" href="css/semantic.min.css">
+        
+            <!-- <link rel="stylesheet" href="css/dropdown.css"> -->
+            <link rel="stylesheet" href="css/style.css">
             
             <!-- <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"> -->
             
@@ -31,63 +34,75 @@
                
               
 
- 		  <nav class="navbar navbar-default" role="navigation">
- 		    <div class="container-fluid">
- 		      <!-- Brand and toggle get grouped for better mobile display -->
- 		      <div class="navbar-header">
- 		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
- 		          <span class="sr-only">Toggle navigation</span>
- 		          <span class="icon-bar"></span>
- 		          <span class="icon-bar"></span>
- 		          <span class="icon-bar"></span>
- 		        </button>
- 		        
- 		      </div>
- 		  
- 		      <!-- Collect the nav links, forms, and other content for toggling -->
- 		      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
- 		        <ul class="nav navbar-nav">
- 		          <li class="active"><a href="#" class="btn btn-success">Add</a></li>
- 		          <li><a href="#">Project Workspace</a></li>
- 		          <li><a href="#">To-Do List</a></li>
- 		          <li><a href="#">Issue Tracker</a></li>
- 		          <li><a href="#">Wiki</a></li>       
- 		          <li><a href="#">Milestones</a></li>       
- 		          <li><a href="#">Reports</a></li>       
- 		          <li><a href="#">Wiki</a></li>       
- 		  
- 		          <li class="dropdown">
- 		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
- 		            <ul class="dropdown-menu">
- 		              <li><a href="#">Action</a></li>
- 		              <li><a href="#">Another action</a></li>
- 		              <li><a href="#">Something else here</a></li>
- 		              <li class="divider"></li>
- 		              <li><a href="#">Separated link</a></li>
- 		              <li class="divider"></li>
- 		              <li><a href="#">One more separated link</a></li>
- 		            </ul>
- 		          </li>
- 		        </ul>
- 		        
- 		        <ul class="nav navbar-nav navbar-right">
- 		          <li><a href="#">Link</a></li>
- 		          <li class="dropdown">
- 		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
- 		            <ul class="dropdown-menu">
- 		              <li><a href="#">Action</a></li>
- 		              <li><a href="#">Another action</a></li>
- 		              <li><a href="#">Something else here</a></li>
- 		              <li class="divider"></li>
- 		              <li><a href="#">Separated link</a></li>
- 		            </ul>
- 		          </li>
- 		        </ul>
- 		      </div><!-- /.navbar-collapse -->
- 		    </div><!-- /.container-fluid -->
- 		  </nav>
-		
 
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+              
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#" class="btn btn-success">Add</a></li>
+                <li><a href="#">Project Workspace</a></li>
+                <li><a href="#">To-Do List</a></li>
+                <li><a href="#">Issue Tracker</a></li>
+                <li><a href="#">Wiki</a></li>
+                <li><a href="#">Milestones</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Wiki</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+              <ul class="nav navbar-nav navbar-right top-right-nav">
+                
+                <li>
+                  <a href="">Welcome David Webb</a>
+                </li>
+                <li class="">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="setting"></i></a>
+                  <ul class="dropdown-menu m-t-0">
+                    <li>
+                      <a href="#">Profile</a>
+                    </li>
+                    <li>
+                      <a href="#">Inbox</a>
+                    </li>
+                    <li>
+                      <a href="#">Settings</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="">
+                  <a href=""><i class="logout"></i></a>
+                </li>
+                
+              </ul>
+              </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+
+ 		 
 		<div class="content-page clearfix">
 			<header>
 				<div class="breadcrumb-wrap">
@@ -136,8 +151,33 @@
 
 
 					<div class="form-group">
-						<label for="">Invite Team Members</label>
-						<input type="text" class="form-control" id="" placeholder="">
+						
+						
+						
+						
+						<label for="">Invite New Members</label>
+						<select multiple="" name="skills" class="ui fluid normal dropdown">
+						  <option value="">Skills</option>
+						<option value="angular">Angular</option>
+						<option value="css">CSS</option>
+						<option value="design">Graphic Design</option>
+						<option value="ember">Ember</option>
+						<option value="html">HTML</option>
+						<option value="ia">Information Architecture</option>
+						<option value="javascript">Javascript</option>
+						<option value="mech">Mechanical Engineering</option>
+						<option value="meteor">Meteor</option>
+						<option value="node">NodeJS</option>
+						<option value="plumbing">Plumbing</option>
+						<option value="python">Python</option>
+						<option value="rails">Rails</option>
+						<option value="react">React</option>
+						<option value="repair">Kitchen Repair</option>
+						<option value="ruby">Ruby</option>
+						<option value="ui">UI Design</option>
+						<option value="ux">User Experience</option>
+						</select>
+		                      
 					</div>
 
 					<a href="" class="blue-underline">Invitea New Members</a>
@@ -154,8 +194,8 @@
 					<button type="submit" class="btn btn-block btn-success">Create Project Workspace</button>
 				</form>
 			</div>
-			
-			
+		
+		
 
 		</div> <!-- content-page -->
 
@@ -175,6 +215,8 @@
             <script src="js/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
            	<script src="js/dropzone.js"></script>
+             <script src="js/transition.js"></script>
+             <script src="js/dropdown.js"></script>
            <script src="js/main.js"></script>
          
            
@@ -183,3 +225,12 @@
          
          
          
+
+<script >
+	
+	$('.ui.dropdown')
+	  .dropdown({
+	    maxSelections: 5
+	  })
+	;
+</script>
