@@ -2,3 +2,5 @@ node_modules/
 _assets
 *.zip
 *.psd
+
+sass/
