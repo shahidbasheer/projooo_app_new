@@ -288,3 +288,57 @@
 		}
 	}
 }
+
+
+// modal
+#invite_modal {
+	h3 {color: #000; font-weight: bold; margin-bottom: 10px;  }
+
+	.modal-content {
+ 	   padding: 14px 0 47px;     
+      border-radius: 10px;
+      outline: 0;
+      border: 4px solid #a2a2a2; 
+      -webkit-box-shadow:none;
+              box-shadow:none;
+    }
+    
+
+    .notify {
+    	margin:10px auto 20px; 
+    	background: #cfffbb;
+    	padding: 16px 8px;
+    	margin-left: -36px;
+    	margin-right: -36px;
+    	text-align: center; 
+    	p {margin-bottom: 0; color: #018b22; }
+
+    }
+    .modal-header {
+    	padding: 15px 36px; 
+	}
+	.modal-body {
+    
+    	padding: 15px 36px;
+	}
+	input {height: 40px; }
+	.checkbox-inline {
+		    min-width: 253px;
+		input[type="checkbox"] {
+			height: auto !important;
+		}
+	}
+	.btn {margin-top: 20px; }
+	.close {
+		background: url('../img/x.png') no-repeat; 
+		width: 19px;
+		height: 19px;
+		  color: transparent;
+     text-shadow: 0 1px 0 #fff; 
+     opacity: 1;
+         margin-top: -15px;
+         margin-right: -18px;
+
+	}
+}
+  

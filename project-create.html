@@ -193,7 +193,7 @@
 		                     
 					</div>
 
-					<a href="" class="blue-underline">Invitea New Members</a>
+					<a href="" class="blue-underline" data-toggle="modal" data-target="#invite_modal">Invitea New Members</a>
 
 					<p class="dropzon-label">Upload / Share Document </p>					
 					<div action="#" class="dropzone dz-clickable" id="dropzone">                    						
@@ -212,7 +212,59 @@
 
 		</div> <!-- content-page -->
 
+			<!-- Modal -->
+			<div class="modal fade" id="invite_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document" style="width: 715px; ">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+			        <h3 class="modal-title" id="myModalLabel">Invite New Members</h3>
+			        <p>Assign new members to the project workspace. Member can be internal member or external team members.</p>
+			      </div>
+			      <div class="modal-body">
+			        <div class="notify">
+			        	<p>Your are in the invite list for following Workspace.</p>
+			        </div>
+			        <form action="" method="POST" role="form">
+			        	
+			        
+			        	<div class="form-group">
+			        		<label for="">Member EMail Address</label>
+			        		<input type="text" class="form-control" id="" placeholder="">
+			        	</div>
+						
+							
+								<label class="checkbox-inline">
+								<input type="checkbox" value="">
+								Project Workspace Administrator
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="">
+									Issues Tracker Manager
+								</label>
+							<br>
+								<label class="checkbox-inline">
+								<input type="checkbox" value="">
+								To-Do List Manager
+							</label>
+							<label class="checkbox-inline">
+								<input type="checkbox" value="">
+								Wiki Editor
+							</label>
+							
+						
 
+			        	
+			        
+			        	<button type="submit" class="btn btn-block btn-success">Add to Project Workspace Invite</button>
+			        </form>
+			      </div>
+			      
+			    </div>
+			  </div>
+			</div>
+		<!-- Without Border -->
+		
 
          
          
