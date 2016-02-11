@@ -51,7 +51,21 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#" class="btn btn-success">Add</a></li>
+                <li class="active">
+                  <a href="" class="dropdown-toggle btn btn-success" data-toggle="dropdown">Add</a>
+                  <div class="triangle"></div>
+                  <ul class="dropdown-menu left">
+                    <li>
+                      <a href="#">Profile</a>
+                    </li>
+                    <li>
+                      <a href="#">Inbox</a>
+                    </li>
+                    <li>
+                      <a href="#">Settings</a>
+                    </li>
+                  </ul>
+        
                 <li><a href="#">Project Workspace</a></li>
                 <li><a href="#">To-Do List</a></li>
                 <li><a href="#">Issue Tracker</a></li>
@@ -81,7 +95,8 @@
                 </li>
                 <li class="">
                   <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="setting"></i></a>
-                  <ul class="dropdown-menu m-t-0">
+                  <div class="triangle"></div>
+                  <ul class="dropdown-menu right">
                     <li>
                       <a href="#">Profile</a>
                     </li>
@@ -101,6 +116,7 @@
               </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
             </nav>
+        
 
  		 
 		<div class="content-page clearfix">
@@ -119,7 +135,7 @@
 				</div>
 				<h3>Create a New Project Workplan</h3>
 			</header>
-			
+		
 			<div class="new-project-form-wrap">
 				<form action="" method="POST" role="form">
 					
@@ -133,7 +149,6 @@
 						<label for="">Describe your Project in Detail</label>
 						<textarea name="" id="input" class="form-control" rows="8" required="required"></textarea>
 					</div>
-
 
 					<div class="form-group">
 						<label for="">Start Date & End Date of the Project</label>
@@ -149,12 +164,10 @@
 						</div>
 					</div>
 
-
 					<div class="form-group">
 						
-						
-						
-						
+										
+					
 						<label for="">Invite New Members</label>
 						<select multiple="" name="skills" class="ui fluid normal dropdown">
 						  <option value="">Skills</option>
@@ -177,7 +190,7 @@
 						<option value="ui">UI Design</option>
 						<option value="ux">User Experience</option>
 						</select>
-		                      
+		                     
 					</div>
 
 					<a href="" class="blue-underline">Invitea New Members</a>

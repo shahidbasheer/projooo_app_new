@@ -14,7 +14,21 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#" class="btn btn-success">Add</a></li>
+        <li class="active">
+          <a href="" class="dropdown-toggle btn btn-success" data-toggle="dropdown">Add</a>
+          <div class="triangle"></div>
+          <ul class="dropdown-menu left">
+            <li>
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <a href="#">Inbox</a>
+            </li>
+            <li>
+              <a href="#">Settings</a>
+            </li>
+          </ul>
+
         <li><a href="#">Project Workspace</a></li>
         <li><a href="#">To-Do List</a></li>
         <li><a href="#">Issue Tracker</a></li>
@@ -44,7 +58,8 @@
         </li>
         <li class="">
           <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="setting"></i></a>
-          <ul class="dropdown-menu m-t-0">
+          <div class="triangle"></div>
+          <ul class="dropdown-menu right">
             <li>
               <a href="#">Profile</a>
             </li>
