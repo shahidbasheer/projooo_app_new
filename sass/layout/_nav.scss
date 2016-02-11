@@ -1,0 +1,68 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Nav styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+
+.navbar {
+	    border-radius: 0;
+	    border-bottom: 1px solid #e1ebef  ;
+	    margin-bottom: 6px;
+	}
+	.navbar-default {
+		background-color: #f8fafb;
+		border-color: #e1ebefz;
+		.navbar-nav li { 
+			a { 
+				padding-top: 20px;
+				padding-bottom: 20px;
+				background: transparent; color: #848484;  border-right: 0px solid #848484;  font-size: 16px;
+				&:hover, &:active { background: transparent;     color: #848484; }
+			}
+
+				&.active a, &.active:hover a, &.active:focus a { background: transparent; color: #848484;  }
+			
+			a.btn { padding: 4px 10px; font-size: 16px;      margin-top: 15px; }
+			a.btn-success {
+			  color: #fff;
+			  background-color: #03e00d;
+			  border-color: #03e00d;
+
+			}
+
+			a.btn-success:focus, a.btn-success.focus {
+			  color: #fff;
+			  background-color: darken(#03e00d, 5%);
+			  border-color: #03e00d;
+			}
+
+			a.btn-success:hover {
+			  color: #fff;
+			  background-color: darken(#03e00d, 5%);
+			  border-color: #03e00d;
+			}
+		}
+		.navbar-collapse {
+		     padding-right: 15px;
+		    padding-left: 15px
+		}
+		.container-fluid {
+		       padding-right: 15px;
+    padding-left: 15px
+		}
+		.dropdown-menu { 
+			background: darken( #f8fafb, 10%);
+		}
+		.navbar-nav>.open>a, 
+		.navbar-nav>.open>a:hover, 
+		.navbar-nav>.open>a:focus {
+		    color: #848484;
+		    background-color: #f8fafb;
+		}
+.navbar-nav>.open>a:hover, 
+.navbar-nav>.open>a:focus {
+border: 0; 
+
+}
+	}// end 

@@ -1,0 +1,28 @@
+a.blue-underline {
+	color: #000db6;
+	text-decoration: underline; 
+	font-size: 16px; 
+	transition: all 0.3s ease 0s;
+	&:hover, &:focus {
+		color: darken (#000db6, 10%);
+	}
+
+}
+
+/* Dropzone */
+.dropzone {
+  min-height: 130px;
+  border: 1px solid  #dededf;
+  background: white;
+  border-radius: 6px;
+}
+.dropzone .dz-message {
+  font-size: 26px;
+  span { color: #c2c2c2;  }
+  i { color: #c2c2c2;  margin-right: 60px;   font-size: 40px; vertical-align: bottom; }
+}
+
+.dropzone .dz-message {
+    text-align: center;
+    margin: 1em 0;
+}

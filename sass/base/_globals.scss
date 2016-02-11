@@ -1,0 +1,75 @@
+/* 
+ * ----------------------------------------------------------------------------------------
+ * Global Style.
+ * ----------------------------------------------------------------------------------------
+ */
+ 
+
+ 
+ /* Font-Face */
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Book.otf);
+	       
+	}
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Heavy.otf);
+	 font-weight: bold;
+       
+	}
+
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Black.otf);
+	font-weight: 700;
+	       
+	}
+
+	@font-face {
+	font-family: 'AvenirLTStd';
+	src: url(../fonts/AvenirLTStd-Oblique.otf);
+	  font-style: italic;
+	       
+	}
+
+	@font-face {
+	font-family: 'AvenirLTStd-Light';
+	src: url(../fonts/AvenirLTStd-Light.otf);
+	  
+	       
+	}
+
+
+	
+
+body {
+	font-family: 'AvenirLTStd';
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'AvenirLTStd-Light';
+
+}
+
+p, a {
+	font-family: 'AvenirLTStd';
+
+}
+
+h1 {font-size: 48px; color: #000; }
+
+h2 { font-size: 26px; color: #000; }
+
+h2 { font-size: 24px; color: #000; }
+
+h5 {font-size: 14px; font-weight: bold; color: #000; }
+
+p {
+	font-size: 16px;
+	color: #000;
+}
+
+label {
+
+}

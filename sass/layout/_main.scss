@@ -1,0 +1,211 @@
+/*
+ * ----------------------------------------------------------------------------------------
+ * Main styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+
+.logign-form-wraper {
+	max-width: 466px;
+	margin: 5% auto;
+	    padding: 20px;
+	overflow-x: hidden;
+	form {
+		background: #f8fafb;
+		border: 1px solid #d7e1e6;
+		border-radius: 30px;
+		padding:52px 36px 42px 36px;
+			@include breakpoint ( max-width 500px ) {
+					padding:52px 20px;
+			}
+		p {margin-bottom: 4px; }
+		h3 { margin-top: 0; margin-bottom: 24px;  }
+		label {margin-bottom: 10px;   }
+		input {margin-bottom: 26px; }
+		.btn {margin-top: 30px; margin-bottom: 30px; }
+		a.blue-underline {display: block; margin-bottom: 10px; }
+
+		
+
+	}
+}
+
+.error {border-color: #ed8283; color: #ed8283; }
+.error-notify {
+	display: none;
+	margin-bottom: 30px; 
+	border-top: 1px solid #ed8283; 
+	border-bottom: 1px solid #ed8283;
+	background: #faf5f6;
+	margin-left: -36px;
+	margin-right: -36px;
+		@include breakpoint ( max-width 500px ) {
+					margin-left: -20px;
+					margin-right: -20px;
+		}
+	padding: 8px;
+	text-align: center;
+	p {margin: 0; font-size: 14px; color: #e10000; }
+}
+
+.breadcrumb-wrap{
+
+}
+.breadcrumb {
+	display: inline-block;
+	padding: 8px 15px 8px 0px;
+	margin-bottom: 0;
+	list-style: none;
+	background-color: transparent;
+	border-radius: 4px;
+	li a {
+		color: #000db6;
+		transition: all 0.3s ease 0s;
+		&:hover, &:focus {
+			color: darken (#000db6, 10%);
+		}
+	}
+	>.active {
+	    color: #000;
+	}
+	>li+li:before {
+    content: "/ ";
+    padding: 0 5px;
+	    color: #000;
+	}
+}
+
+.content-page {
+	padding: 10px 30px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	header {
+		h3 {margin-top: 0; color: #000; }
+		a.backy {    margin-top: 7px; }
+		a.blue-underline {font-size: 14px; }
+	} 
+}
+
+.new-project-form-wrap {
+	padding: 20px;
+	max-width: 650px;
+	margin: 0 auto;
+	margin-top: 50px; 
+	
+	form {
+		
+		border: 1px solid #d7e1e6;
+		border-radius: 10px;
+		padding:42px 36px 32px 36px;
+			@include breakpoint ( max-width 500px ) {
+					padding:52px 20px;
+			}
+		p {margin-bottom: 4px; }
+		h3 { margin-top: 0; margin-bottom: 24px;  }
+		label {margin-bottom: 10px;   }
+		input {margin-bottom: 26px; }
+		.btn {margin-top: 30px; margin-bottom: 30px; padding: 12px 12px; }
+		a.blue-underline {display: block; margin-bottom: 16px;     margin-top: -14px; }
+
+		.hightlight-bg {
+			margin-right: -36px;
+			margin-left: -36px;
+			background: #fff8c1;
+			padding: 10px 36px;
+			margin-bottom: 20px;
+			@include breakpoint ( max-width 500px ) {
+							margin-left: -20px;
+							margin-right: -20px;
+				}
+		}
+
+		.dropzon-label {
+				font-weight: 400;
+			    color: #59595a;
+			    font-size: 16px;
+			    margin-bottom: 10px; 
+		}
+	
+
+
+	}
+}
+
+
+//end ================================
+
+.projects {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 30px; 
+}
+.project {
+	//max-width: 420px;
+	width:100%; 
+	background: #fff;
+	border: 1px solid #dae4e9;
+	border-radius: 2px; 
+	//float: left;
+	//margin-right: 40px; 
+	text-align: left;
+	display: inline-block ; 
+		@include breakpoint ($xs) {
+				margin-right: auto;
+				margin-left: auto;
+				width: 100%;
+				//max-width: 550px;
+				float: none;
+
+		}
+			
+	margin-bottom: 30px; 
+	header {
+		padding: 10px 20px;
+		img {margin-right: 5px;vertical-align: bottom; }
+		h4 {font-weight: 700; font-size: 22px; color: #000; margin-bottom: 6px;  }
+		p {color: #8d99a5; font-size: 14px; }
+	}
+	.content	 {
+		padding: 10px 20px 0 20px;
+		    margin-top: 6px;
+	
+	}
+	.status {
+		padding:8px  10px;
+		max-width: 90px; 
+		font-size: 14px; 
+		font-weight: bold; 
+		text-align: center;  
+	}
+
+	
+
+	footer {
+
+		border-top: 1px solid #ddd;
+		padding: 10px 20px;
+		@include breakpoint ($sm) {
+			text-align: center;
+			}
+	}
+	.widget-panel {
+		margin-right: 20px; 
+		img {display: inline-block;  vertical-align: baseline;   margin-right: 11px; }
+		div {display: inline-block; margin-right: 10px; }
+		p {margin: 0; color: #000; font-size: 14px;    }
+		span { color: #8d99a5; font-size: 13px; }
+		&:last-child {margin-right: 0; float: right;}
+		&:first-child {margin-right: 0; float: left;}
+			@include breakpoint ($sm) {
+
+				&:last-child {margin-right: 0; float: none; margin-bottom: 4px; }
+				&:first-child {margin-right: 0; float: none;}
+			}
+	}
+	.status--orang {background: #ff9600; color: #fff;  } // orange
+	.status--yellow {background: #f6ff0a; color: #000;  } // yellow
+	.status--draft {background: #848484; color: #fff; } // draft
+	.status--orang {background: #ff9600; } // orange
+}//project
