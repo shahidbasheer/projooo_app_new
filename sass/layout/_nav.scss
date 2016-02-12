@@ -17,7 +17,7 @@
 			a { 
 				padding-top: 26px;
 				padding-bottom: 22px;
-				background: transparent; color: #848484;  border-right: 0px solid #848484;  font-size: 16px;
+				background: transparent; color: #848484;  border-right: 0px solid #848484;  font-size: 14px;
 				transition: all 0.3s ease 0s;
 				font-weight: bold;
 				&:hover, &:active { background: transparent;     color: #000; }
@@ -25,7 +25,7 @@
 
 				&.active a, &.active:hover a, &.active:focus a { background: transparent; color: #000;  }
 			
-			a.btn { padding: 4px 10px; font-size: 16px;   margin-top: 20px;     margin-right: 14px;}
+			a.btn { padding: 4px 10px; font-size: 14px;   margin-top: 20px;     margin-right: 14px;}
 			a.btn-success {
 			  color: #fff;
 			  background-color: #03e00d;
@@ -122,7 +122,7 @@ border: 0;
 	}
 }
 .top-right-nav {
-	li:first-child a { font-weight: normal; font-size: 14px; }
+	li:first-child a { font-weight: normal; font-size: 13px; }
 }
     .dropdown-menu.right:before {
         position: absolute;
