@@ -32,7 +32,7 @@
 
 .error {border-color: #ed8283; color: #ed8283; }
 .error-notify {
-	display: none;
+	//display: none;
 	margin-bottom: 30px; 
 	border-top: 1px solid #ed8283; 
 	border-bottom: 1px solid #ed8283;
@@ -47,7 +47,78 @@
 	text-align: center;
 	p {margin: 0; font-size: 14px; color: #e10000; }
 }
+.signup-form-wraper {
+	margin: 5% auto;
+	
+	header {
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			margin-bottom: 50px;	
+			h1 {font-size: 30px; font-weight: bold; }
+			p {    max-width: 670px;
+			    margin-left: auto;
+			    margin-right: auto;
+			}
+	}
+	.wide-padding {
+		padding-left: 28px !important;
+    padding-right: 28px !important;
+	}
 
+	padding: 20px;
+	overflow-x: hidden;
+	form {
+		background: #f8fafb;
+		border: 1px solid #d7e1e6;
+		border-radius: 30px;
+		padding:52px 36px 42px 36px;
+			@include breakpoint ( max-width 500px ) {
+					padding:52px 20px;
+			}
+		p {margin-bottom: 4px; }
+		h3 { margin-top: 0; margin-bottom: 24px;  }
+		label {margin-bottom: 10px;   }
+		input {margin-bottom: 26px; }
+		.btn {margin-top: 30px; margin-bottom: 30px; }
+		a.blue-underline {display: block; margin-bottom: 10px; }
+		.no-padding-left {
+			padding-right: 6px;
+		}
+
+		.no-padding-right {
+			padding-left: 6px;
+		}
+		    
+		
+
+	}
+
+}//end 
+.signup-form-wraper_inner {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto; 
+	.content {
+		max-width: 90%;
+		margin: 15% auto; 
+		h2 {margin-bottom: 44px; }
+		p {margin-bottom: 28px; color: #595959; }
+		ul {
+			padding-left: 24px;
+			margin-bottom: 38px; 
+			li {
+				margin-bottom: 6px;
+				position: relative;
+				color: #000;
+
+				.check {
+					background: url('../img/check.png') no-repeat; 
+					position: absolute; width: 21px; height: 22px;  top: -2px; left: -26px;  }
+			}
+		}
+	}
+}
 .breadcrumb-wrap{
 
 }
