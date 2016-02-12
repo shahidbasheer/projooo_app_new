@@ -94,9 +94,9 @@ var gulp = require('gulp'),
 	//var uncssHtmlSource = ['./uncss/index.html', 'posts/**/*.html', 'http://example.com']
 	//var uncssHtmlSource = ['./email.html','./landing-page.html' ] // this is nor woking
 	gulp.task('uncss', function () {
-    gulp.src('./css/app.css')
+    gulp.src(['./css/style.css',])
         .pipe(uncss({
-            html: [ './email.html' ]
+            html: [ './contact-form.html' ]
         }))
         .pipe(gulp.dest('./uncss/css'));
          // copy html files to un css
@@ -106,13 +106,13 @@ var gulp = require('gulp'),
 
 	
 	// minify CSS
-	var cssminSource = rootAddress  + 'css/style.css';
-	var cssminDest =  rootAddress + 'css';
+	var cssminSource = rootAddress  + 'uncss/css/style.css';
+	var cssminDest =  rootAddress + 'uncss/css';
  
 	gulp.task('minifycss', function() {
 	  gulp.src( cssminSource )
-	    .pipe($.rename({suffix: '.min'}))
-	    .pipe($.minifycss({keepBreaks:true}))
+	    .pipe(rename({suffix: '.min'}))
+	    .pipe(minifycss({keepBreaks:true}))
 	    .pipe(gulp.dest( cssminDest )) ;
 	});
 
