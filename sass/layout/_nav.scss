@@ -15,16 +15,17 @@
 		border-color: #e1ebefz;
 		.navbar-nav li { 
 			a { 
-				padding-top: 20px;
-				padding-bottom: 20px;
+				padding-top: 26px;
+				padding-bottom: 22px;
 				background: transparent; color: #848484;  border-right: 0px solid #848484;  font-size: 16px;
 				transition: all 0.3s ease 0s;
+				font-weight: bold
 				&:hover, &:active { background: transparent;     color: #000; }
 			}
 
 				&.active a, &.active:hover a, &.active:focus a { background: transparent; color: #000;  }
 			
-			a.btn { padding: 4px 10px; font-size: 16px;      margin-top: 15px; }
+			a.btn { padding: 4px 10px; font-size: 16px;      margin-top: 20px; }
 			a.btn-success {
 			  color: #fff;
 			  background-color: #03e00d;
