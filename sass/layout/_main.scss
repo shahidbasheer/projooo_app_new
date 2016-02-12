@@ -161,14 +161,14 @@
 	background-color: transparent;
 	border-radius: 4px;
 	li a {
-		color: #000db6;
+		color: #372f65;
 		transition: all 0.3s ease 0s;
 		&:hover, &:focus {
 			color: darken (#000db6, 10%);
 		}
 	}
 	>.active {
-	    color: #000;
+	    color: #372f65;
 	}
 	>li+li:before {
     content: "/ ";
