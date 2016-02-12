@@ -17,4 +17,4 @@ http://fiberelephant.com/proojo_new_app/project-create.html 			<br>
 http://fiberelephant.com/proojo_new_app/select-business.html 			<br>
 http://fiberelephant.com/proojo_new_app/setup-your-business.html 		<br>
 __New__
-http://fiberelephant.com/proojo_new_app/contact-form.html.html 		<br>
+http://fiberelephant.com/proojo_new_app/contact-form.html 		<br>
