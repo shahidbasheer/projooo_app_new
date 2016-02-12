@@ -47,7 +47,7 @@
 	text-align: center;
 	p {margin: 0; font-size: 14px; color: #e10000; }
 }
-.success-notify-loging {
+.success-notify {
 	//display: none;
 	width: 95%;
 	 margin-left: auto;
@@ -563,3 +563,36 @@
  	margin-top:  10%;
  	margin-left: 40px; 
  }
+
+.logign-form-wraper.invite-team-member {
+	overflow-x: visible;
+}
+.invite-team-member {
+	position: relative;
+	form {  }
+	.mistake_notify {
+		position: absolute;
+		top: 50px;
+		right: 0;
+		margin-right: -304px;
+		max-width: 320px;
+		background: #f7f7f7;
+		padding: 10px 20px;
+		    text-align: center;
+		    z-index: -1;
+
+		a  {
+			color: #0016eb;
+			font-size: 16px;
+			text-decoration: underline; 
+			line-height: 1;
+			transition: all 0.3s ease 0s;
+			&:hover &:focus {
+				color: darkne( #0016eb, 5% );
+			}
+
+			}
+
+	}
+
+}

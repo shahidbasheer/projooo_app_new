@@ -93,15 +93,19 @@ var gulp = require('gulp'),
 	// uncss
 	//var uncssHtmlSource = ['./uncss/index.html', 'posts/**/*.html', 'http://example.com']
 	//var uncssHtmlSource = ['./email.html','./landing-page.html' ] // this is nor woking
+	var htmluncss = './invite-team-members.html'; 
 	gulp.task('uncss', function () {
     gulp.src(['./css/style.css',])
+
         .pipe(uncss({
-            html: [ './contact-form.html' ]
+            html: [ htmluncss ]
         }))
-        .pipe(gulp.dest('./uncss/css'));
+         .pipe(minifycss({keepBreaks:true}))
+         .pipe(gulp.dest('./uncss/css'));
          // copy html files to un css
-         //gulp.src('./*.html')
-         //.pipe(gulp.dest('./uncss/'));
+    gulp.src( htmluncss )
+         .pipe(gulp.dest('./uncss/'));
+         
 	});
 
 	
