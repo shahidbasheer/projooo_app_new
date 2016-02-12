@@ -303,8 +303,9 @@
 	margin-bottom: 30px; 
 	header {
 		padding: 20px 20px 10px;
+		min-height: 124px;
 		img {margin-right: 5px;vertical-align: bottom; }
-		h4 {font-weight: 700; font-size: 22px; color: #000; margin-bottom: 12px;  line-height: 1.4; min-height: 60px;}
+		h4 {font-weight: 700; font-size: 22px; color: #000; margin-bottom: 12px;  line-height: 1.4; }
 		p {color: #8d99a5; font-size: 14px; }
 	}
 	.content	 {
