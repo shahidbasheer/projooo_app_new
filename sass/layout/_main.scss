@@ -329,7 +329,7 @@
 	margin-bottom: 30px;
 	header {
 		height: 41px;
-		padding: 10px 20px;
+		padding: 6px 20px 14px;
 		p {color: #4d4d4d; font-weight: bold; margin-bottom: 0;  }
 		.inactive {color: #ff2e2e; }
 
@@ -412,4 +412,93 @@
 
 	}
 }
-  
+ 
+.setup-your-business-wrap {
+
+	margin-top: 40px;
+}
+
+
+    
+.setup-your-business-inner {
+		@include breakpoint ($xs) {
+			.no-padding-left {
+				padding-left: 15px !important; 
+			}
+
+			.no-padding-right {
+				padding-right: 15px !important; 
+			}
+		}
+	 form {
+			
+			border: 1px solid #d7e1e6;
+			border-radius: 10px;
+			padding:42px 36px 32px 36px;
+				@include breakpoint ( max-width 500px ) {
+						padding:52px 20px;
+				}
+			p {margin-bottom: 4px; }
+			h3 { margin-top: 0; margin-bottom: 24px;  }
+			label {margin-bottom: 10px;   }
+			input {margin-bottom: 26px; }
+			.btn {margin-top: 30px; margin-bottom: 30px; padding: 12px 12px; }
+			a.blue-underline {display: block; margin-bottom: 16px;     margin-top: 10px; }
+
+			.hightlight-bg {
+				margin-right: -36px;
+				margin-left: -36px;
+				background: #fff8c1;
+				padding: 10px 36px;
+				margin-bottom: 20px;
+				@include breakpoint ( max-width 500px ) {
+								margin-left: -20px;
+								margin-right: -20px;
+					}
+			}
+
+			
+	}//form
+
+	.content {
+		background: #fcfcfc;
+		position: relative;
+		margin: 15% auto; 
+		border: 1px solid #e4e4e4; 
+		border-left:0;
+			@include breakpoint ($xs) {
+		 		border-left: 1px solid #e4e4e4; 
+		 	} 
+		border-top-right-radius: 6px;
+		border-bottom-right-radius: 6px;
+		padding:30px 34px;
+		p {color: #8b8b8b; }
+		.package-plan {
+			border: 1px solid #03a9ff; background: #f8fafb; 
+			padding: 20px 30px; 
+			margin-bottom: 36px;
+			p, h4 {color: #000;}
+
+
+		}
+
+		img { position: absolute; bottom: 0; right: 20px;  }
+
+		footer {
+			max-width: 400px;
+			p {margin-bottom: 0; }
+
+		}
+		.info {
+			margin-bottom: 40px;
+			h5 {margin-bottom: 0; color: #000; font-size: 14px;  }
+		}
+
+		.bold {font-weight: bold; }
+		.black {color: #000; }
+
+	}
+		
+}
+
+ 
