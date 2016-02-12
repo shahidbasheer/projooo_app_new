@@ -1,5 +1,21 @@
 jQuery(document).ready(function($) {
+	$('.form-show').on('click',  function(event) {
+
+		console.log('clicked');
+		$('.contact-form').show('fast');
+		$(this).hide('fast');
 	
+		
+	});
+	$('.contact-form .close').on('click',  function(event) {
+
+		console.log('clicked');
+		$('.contact-form').hide('fast');
+		$('.form-show').show('fast');
+		
+	
+		
+	});
 	
 
 	errortest ();
@@ -13,7 +29,7 @@ jQuery(document).ready(function($) {
 	//dropzon 
 	var myDropzone = new Dropzone("div#dropzone", { url: "file-upload"});
 	
-	
+
 });//on laod
 
 

@@ -537,3 +537,27 @@
 }
 
  
+
+
+ .contact-form {
+ 	margin: 5% auto;
+ 	padding: 20px; 
+ 	max-width: 400px;
+ 	border: 1px solid #ddd; 
+ 	position: absolute;
+ 	left: 0;
+ 	margin-left: 20px; 
+ 	top: 5%;
+ 	display: none; 
+
+
+ }
+
+ .form-show {
+ 	cursor: pointer;
+ 	padding: 10px;
+ 	p {margin-bottom: 0px; }
+ 	border: 1px solid #ddd; 
+ 	max-width: 200px; 
+ 	margin-top:  10%; 
+ }
