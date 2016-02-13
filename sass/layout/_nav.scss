@@ -128,11 +128,12 @@ border: 0;
 
 #sidebar-wrapper {
 	border-right: 1px solid #dbdbdb;
-	background: #fcfcfc; 
+	background: #fcfcfc;
+	min-height: 900px;
 	ul.sidebar-nav {
 		list-style: none; 
 		li {
-			padding: 20px;
+			    padding: 12px 30px 12px 40px;
 			border-top: 1px solid #dbdbdb;
 			a {
 				color: #323232; 
@@ -140,17 +141,21 @@ border: 0;
 				
 				margin-right: 40px;
 				font-size: 18px;
-
+			&:hover, &:focus {
+				color: #000; 
+				text-decoration: none; 
+			}
 
 
 			}
 		}
 	}
 	header {
+		padding: 30px 34px;
 		h5 {margin: 0 0 4px; font-weight: bold; font-size: 16px; }
 		p {margin-bottom: 20px; font-size: 16px }
-		padding: 34px;
-		span.bullet {display: block; color: #000; margin-bottom: 4px; font-size: 14px;  }
+		
+		span.bullet {display: block; color: #000; margin-bottom: 4px; font-size: 16px;  }
 	}
 
 }

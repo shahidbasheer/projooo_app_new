@@ -666,6 +666,7 @@
 
 .sidebar-page {
 	margin-top: 55px; 
+	margin-bottom: 200px;
 	border: 1px solid #e4e4e4; 
 	border-radius: 4px;
 	min-height: 900px; 
@@ -678,9 +679,10 @@
 #page-content-wrapper {
 	width: 75%;
 	float: left;
-	padding: 20px; 
+	padding: 42px 72px;
 	header {
-		h4 {font-size: 16px; font-weight: bold; margin-bottom: 10px; }
+		margin-bottom: 30px;
+		h4 {font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #000; }
 
 	}
 	.invite-team {
@@ -703,14 +705,20 @@
     		}
 	  .table>tbody>tr>td {
 	  			margin-bottom: 10px;    
-	  			padding: 20px 12px;
+	  			padding: 20px 12px;	  			
+	  			vertical-align: middle;
+	  			border-top: 0;	  			
+	  			&:first-child {padding-left: 30px;  }
+	  			&:last-child {  text-align: right;  padding-right: 30px;}
+	  		}
+	  .table>tbody>tr:nth-child(odd)>td { 
 	  			border-top: 1px solid #ddd;
 	  			border-bottom: 1px solid #ddd;
-	  			vertical-align: middle;
-	  			&:first-child { border-left: 1px solid #ddd; padding-left: 30px; }
-	  			&:last-child { border-right: 1px solid #ddd;  text-align: right;  padding-right: 30px;}
-	  		} 
-	  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;padding: 4px 24px;     padding-top: 20px;}
+			&:first-child { border-left: 1px solid #ddd;  }
+	  		&:last-child { border-right: 1px solid #ddd;  }
+	  }
+	  		
+	  
 	 h4 {color: #59595a; font-size: 16px; font-weight: bold; margin-bottom: 4px; }
 	 span.email {color: #59595a; display: block; }
 	 span.bubble {color: #59595a; background: #f1f1f1; padding:4px 8px; border-radius: 10px; margin-bottom: 6px; font-weight: bold; font-size: 12px;     display: inline-block;     margin-right: 4px;}
@@ -722,5 +730,7 @@
 	 span.del { background: url('../img/remove.png') no-repeat;display: inline-block; width: 22px; height: 22px; }
 	 span.edit { background: url('../img/edit.png') no-repeat;display: inline-block; width: 23px; height: 23px;  margin-right: 5px; }
 	}
+
+	.btn {    padding: 13px 25px; margin-right: 10px; margin-top: 26px;   }
 	
 }
