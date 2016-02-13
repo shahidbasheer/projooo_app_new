@@ -23,7 +23,7 @@
             <!-- <link href="css/simple-sidebar.css" rel="stylesheet"> -->
         
             <!-- <link rel="stylesheet" href="css/dropdown.css"> -->
-            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/style.min.css">
             
             <!-- <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"> -->
             
@@ -118,37 +118,42 @@
              
         
           <div class="content-page clearfix">
+                <div class="sidebar-page">                 
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <!-- Sidebar -->
                               <div id="sidebar-wrapper">
-                                  <ul class="sidebar-nav">
+                                <header>
+                                    <h5 class="username">
+                                      Welcome David Webb
+                                    </h5>
+                                    <p>Since :10th May 2015</p>
+                                    <span class="bullet">34 Active Projects</span>
+                                    <span class="bullet">21 Members</span>
+                                    <span class="bullet">10 Archieve</span>
+
+                                </header>
+                                  <ul class="sidebar-nav list-unstyled">
                                       <li class="sidebar-brand">
                                           <a href="#">
                                               Start Bootstrap
                                           </a>
                                       </li>
                                       <li>
-                                          <a href="#">Dashboard</a>
+                                          <a href="#">General Settings</a>
                                       </li>
                                       <li>
-                                          <a href="#">Shortcuts</a>
+                                          <a href="#">Team Members</a>
                                       </li>
                                       <li>
-                                          <a href="#">Overview</a>
+                                          <a href="#">Billing & Invoice</a>
                                       </li>
                                       <li>
-                                          <a href="#">Events</a>
+                                          <a href="#">Change Password</a>
                                       </li>
                                       <li>
-                                          <a href="#">About</a>
-                                      </li>
-                                      <li>
-                                          <a href="#">Services</a>
-                                      </li>
-                                      <li>
-                                          <a href="#">Contact</a>
-                                      </li>
+                                          <a href="#">Update Profile</a>
+                                      </li>                                    
                                   </ul>
                               </div>
                               <!-- /#sidebar-wrapper -->
@@ -158,9 +163,132 @@
                                   <div class="container-fluid">
                                       <div class="row">
                                           <div class="col-lg-12">
-                                              <h1>Simple Sidebar</h1>
-                                              <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                                              <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>                       
+                                              <header>
+                                                  <h4>Team Members</h4>
+                                                  <p>Invite Team Members to Start Colloborating on Projects</p>
+                                              </header>
+
+
+                                              <div class="invite-team">
+                                                  <form action="" method="POST" role="form">
+                                                    <div class="row no-margin">
+                                                        <div class="col-sm-4 no-padding">
+                                                            <div class="form-group">
+                                                                <label for="">Member EMail Address</label>
+                                                                <input type="text" class="form-control" id="" placeholder="">
+                                                            </div>        
+                                                        </div>
+                                                        <div class="col-sm-8">
+                                                                <p class="m-t-24">
+                                                                    <label class="checkbox-inline">
+                                                                
+                                                                    <input type="checkbox" value="">
+                                                                        Project Workspace Administrator
+                                                                </label>
+                                                                
+                                                                <label class="checkbox-inline">
+                                                                    <input type="checkbox" value="">
+                                                                    Issues Tracker Manager
+                                                                </label>
+                                                                </p>
+                                                                
+                                                                <label class="checkbox-inline">
+                                                                
+                                                                <input type="checkbox" value="">
+                                                                    To-Do List Manager
+                                                                </label>
+                                                                
+                                                                <label class="checkbox-inline">
+                                                                    <input type="checkbox" value="">
+                                                                    Wiki Editor
+                                                                </label> 
+                                                            </div>
+                                                    </div>                                            
+                                                    
+                                                    <button type="submit" class="btn btn-success">Save & Update</button>
+                                                    <button type="submit" class="btn btn-default-2">Cancel & Reset</button>
+                                                  </form>
+                                                </div> <!-- invite-team -->
+
+                                            <div class="table-3">
+                                             <table class="table" cellspacing="10">
+                                               <tbody>
+                                                 
+                                                 <tr>
+                                                   <td style="width: 34%;">
+                                                    <h4><strong>Linda S. Hoelscher </strong></h4>
+                                                     <span class="email"><strong>E :</strong> LindaSHoelscher@rhyta.com</span>
+                                                     <span class="email"><strong>M :</strong> 317-401-2448</span>    
+                                                   </td>
+                                                   <td style="width: 36%;"> 
+                                                     <span class="bubble">Project Workspace Administrator</span>
+                                                     <span class="bubble">Wiki Editor</span>
+                                               
+                                                   </td>
+                                                   <td>
+                                                    <span class="check active"></span>
+                                                     <span class="pending">Pending</span>
+                                                   </td>
+                                                   <td>
+                                                    <a href=""><span class="edit"></span></a>
+                                                    <a href=""><span class="del"></span></a>
+                                                   </td>
+                                                 </tr>
+
+                                                   <tr>
+                                                   <td style="width: 34%;">
+                                                    <h4><strong>Linda S. Hoelscher </strong></h4>
+                                                     <span class="email"><strong>E :</strong> LindaSHoelscher@rhyta.com</span>
+                                                     <span class="email"><strong>M :</strong> 317-401-2448</span>    
+                                                   </td>
+                                                   <td style="width: 36%;"> 
+                                                     <span class="bubble">Project Workspace Administrator</span>
+                                                     <span class="bubble">Wiki Editor</span>
+                                               
+                                                   </td>
+                                                   <td>
+                                                    <span class="check active"></span>
+                                                     <span class="pending">Pending</span>
+                                                   </td>
+                                                   <td>
+                                                    <a href=""><span class="edit"></span></a>
+                                                    <a href=""><span class="del"></span></a>
+                                                   </td>
+                                                 </tr>
+
+                                                   <tr>
+                                                   <td style="width: 34%;">
+                                                    <h4><strong>Linda S. Hoelscher </strong></h4>
+                                                     <span class="email"><strong>E :</strong> LindaSHoelscher@rhyta.com</span>
+                                                     <span class="email"><strong>M :</strong> 317-401-2448</span>    
+                                                   </td>
+                                                   <td style="width: 36%;"> 
+                                                     <span class="bubble">Project Workspace Administrator</span>
+                                                     <span class="bubble">To-Do List Manager </span>
+                                                      <span class="bubble">Wiki Editor</span>
+                                               
+                                                   </td>
+                                                   <td>
+                                                    <span class="check active"></span>
+                                                     <span class="pending">Pending</span>
+                                                   </td>
+                                                   <td>
+                                                    <a href=""><span class="edit"></span></a>
+                                                    <a href=""><span class="del"></span></a>
+                                                   </td>
+                                                 </tr>
+
+
+ 
+
+                                                
+
+                                                 
+
+                                               </tbody>
+                                             </table>
+                                           </div> 
+
                                           </div>
                                       </div>
                                   </div>
@@ -168,6 +296,8 @@
                               <!-- /#page-content-wrapper -->
                     </div>
                 </div>
+            </div> <!-- sidebar-page -->
+
             </div>
 
  

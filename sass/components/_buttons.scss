@@ -28,6 +28,11 @@
 }
 
 
+.btn-default-2 {
+  @include button-variant( #7f7f7f , #c9c9c9 , #c9c9c9 );
+}
+
+
 //size of btn
 
 .btn-lg {

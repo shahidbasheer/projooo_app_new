@@ -664,14 +664,63 @@
     display: block;
 }
 
-
+.sidebar-page {
+	margin-top: 55px; 
+	border: 1px solid #e4e4e4; 
+	border-radius: 4px;
+	min-height: 900px; 
+}
 #sidebar-wrapper {
 	width: 25%;
 	float: left;
 }
 
 #page-content-wrapper {
-	width: 70%;
+	width: 75%;
 	float: left;
+	padding: 20px; 
+	header {
+		h4 {font-size: 16px; font-weight: bold; margin-bottom: 10px; }
+
+	}
+	.invite-team {
+		margin-bottom: 20px; 
+		.checkbox-inline {
+		    min-width: 255px;
+
+		    
+		}
+		.m-t-24 {
+			margin-top: 24px;
+			margin-bottom: 0; 
+		}
+		.btn {padding: 12px 14px; margin-right: 10px; margin-top: 14px;   }
+	}
+	.table-3 {
+	  .table { 
+	  			border-collapse:separate;
+    			border-spacing: 0px 10px;
+    		}
+	  .table>tbody>tr>td {
+	  			margin-bottom: 10px;    
+	  			padding: 20px 12px;
+	  			border-top: 1px solid #ddd;
+	  			border-bottom: 1px solid #ddd;
+	  			vertical-align: middle;
+	  			&:first-child { border-left: 1px solid #ddd; padding-left: 30px; }
+	  			&:last-child { border-right: 1px solid #ddd;  text-align: right;  padding-right: 30px;}
+	  		} 
+	  .table>thead>tr>th { vertical-align: bottom; border-bottom: 0;padding: 4px 24px;     padding-top: 20px;}
+	 h4 {color: #59595a; font-size: 16px; font-weight: bold; margin-bottom: 4px; }
+	 span.email {color: #59595a; display: block; }
+	 span.bubble {color: #59595a; background: #f1f1f1; padding:4px 8px; border-radius: 10px; margin-bottom: 6px; font-weight: bold; font-size: 12px;     display: inline-block;     margin-right: 4px;}
+	 span.check {display: block; width: 25px; height: 25px; margin: 0 auto; margin-bottom: 8px; }
+	 span.check.active { background: url('../img/check-green-sm.png') no-repeat; }
+	 span.check.inactive {  background: url('../img/check-disable-sm.png') no-repeat; }
+	 span.pending {  margin: 0 auto; text-align: center; display: block; margin: 0 auto;  text-align: center; }
+	 span.pending.red {color: #e34242;}
+	 span.del { background: url('../img/remove.png') no-repeat;display: inline-block; width: 22px; height: 22px; }
+	 span.edit { background: url('../img/edit.png') no-repeat;display: inline-block; width: 23px; height: 23px;  margin-right: 5px; }
+	}
 	
 }
