@@ -24,6 +24,8 @@ __New__
 http://fiberelephant.com/proojo_new_app/app-teammeber.html 				<br>
 __New__
 http://fiberelephant.com/proojo_new_app/app-settings.html 				<br>
+__New__
+http://fiberelephant.com/proojo_new_app/app-change-password.html 		<br>
 
 
 
