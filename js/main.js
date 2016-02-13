@@ -25,11 +25,23 @@ jQuery(document).ready(function($) {
 					property2: 'value2'
 				}).addClass('animated bounce');
 	}
+	
+	<!-- Menu Toggle Script -->
+	
+	$("#menu-toggle").click(function(e) {
+	    e.preventDefault();
+	    $("#wrapper").toggleClass("toggled");
+	});
+	
+
+
+
+	
+
 
 	//dropzon 
 	var myDropzone = new Dropzone("div#dropzone", { url: "file-upload"});
 	
-
 });//on laod
 
 
