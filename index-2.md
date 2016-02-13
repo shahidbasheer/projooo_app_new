@@ -22,5 +22,8 @@ __New__
 http://fiberelephant.com/proojo_new_app/invite-team-members.html 		<br>
 __New__
 http://fiberelephant.com/proojo_new_app/app-teammeber.html 				<br>
+__New__
+http://fiberelephant.com/proojo_new_app/app-settings.html 				<br>
+
 
 
