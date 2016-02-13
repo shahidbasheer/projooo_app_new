@@ -687,6 +687,11 @@
 	}
 	.invite-team {
 		margin-bottom: 20px; 
+
+		.checkbox-inline + .checkbox-inline {
+		    margin-top: 0;
+		    margin-left: 0;
+		}
 		.checkbox-inline {
 		    min-width: 255px;
 
@@ -733,4 +738,26 @@
 
 	.btn {    padding: 13px 25px; margin-right: 10px; margin-top: 26px;   }
 	
+}
+
+.passowrd-chagne {
+	form{
+		padding: 30px 30px;
+		border: 1px solid #e9e9e9; 
+		border-radius: 2px;
+		background: #fcfcfc; 
+		margin-bottom: 20px;
+		input {width: 100%}
+			@include breakpoint ($md) {
+				input {width: 70%}	
+			}
+				@include breakpoint ($lg) {
+					input {width: 60%}	
+				}
+	}
+	p.red-note {
+		color: #cb2626; 
+		font-weight: bold;
+
+	}
 }

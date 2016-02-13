@@ -135,6 +135,7 @@ border: 0;
 		li {
 			    padding: 12px 30px 12px 40px;
 			border-top: 1px solid #dbdbdb;
+			&:last-child{border-bottom: 1px solid #dbdbdb;}
 			a {
 				color: #323232; 
 				padding: 10px; 
