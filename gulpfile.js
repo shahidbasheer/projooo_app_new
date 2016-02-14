@@ -1,3 +1,11 @@
+/**
+ *
+ * Gulpfile setup
+ *
+ * @since 1.0.0
+ * @authors Shahid Basheer
+ * @package neat 
+ */
 
  
 var gulp = require('gulp'),

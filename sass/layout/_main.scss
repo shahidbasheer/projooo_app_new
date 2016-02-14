@@ -613,13 +613,14 @@
 
 .profile-avatar-wrap {
   width: 210px;
-  height: 150px; 
+  height: 156px; 
   margin: auto;
   padding: 2px; 
   margin-bottom: 20px; 
   position: relative;
   pointer-events: none;
   border: 1px solid #dddddd;
+  border-radius: 2px;
   input#uploader {margin-bottom: 10px; margin-top: 10px; margin-right: auto; margin-left: auto;  display: inline-block; }
 }
 .profile-avatar-wrap:after {
@@ -759,5 +760,22 @@
 		color: #cb2626; 
 		font-weight: bold;
 
+	}
+}
+
+
+.update-profile {
+	form{
+		padding: 30px 30px;
+		border: 1px solid #e9e9e9; 
+		border-radius: 2px;
+		background: #fcfcfc; 
+		margin-bottom: 20px;
+		
+	textarea {  margin-bottom: 34px; }	
+	}
+	
+	.btn-file {
+		margin-top: 10px !important;
 	}
 }
