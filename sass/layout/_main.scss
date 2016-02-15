@@ -862,3 +862,86 @@
 
 	}
 }
+
+.content-page-pw {
+	padding: 10px 30px;
+	margin-right: auto;
+	margin-left: auto;
+
+	
+	header {
+		h3 {margin-top: 0; color: #000; }
+		a.backy {    margin-top: 7px; }
+		a.blue-underline {font-size: 14px; }
+	} 
+}
+
+.p-w-space {
+	
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 100px;
+	min-height: 1600px;
+
+}
+.p-w-space__content {
+	.sidebar {
+		padding: 0 20px;	
+	}
+
+	.content {
+		padding: 0 20px;
+		h2 {font-weight: bold; font-size: 22px; margin-bottom: 20px }
+		img {margin-left: 20px;}	
+	}
+
+}
+
+.p-w-space__header {
+	text-align: center;
+	margin-bottom: 100px;
+
+	p {max-width: 900px;margin-right: auto; margin-left: auto; color: #000; font-size: 18px; }
+	h2 {
+		margin-bottom: 20px;
+		color: #000;
+		font-size: 22px;
+		font-weight: bold;
+
+	}
+
+}
+
+
+.sidebar_sec {
+	max-width: 400px;
+	border: 1px solid #d7dee0;
+	border-radius: 2px;
+	padding: 20px 40px;
+	text-align: center; 
+	position: relative;
+	margin-bottom: 50px; 
+	div.icon {
+		padding: 18px;
+		width: 62px;
+		height: 62px; 
+		background: #fff; 
+		border: 1px solid #d7dee0; 
+		border-radius: 50%;
+		position: absolute;
+		left: 50%;
+	   
+	    margin-left: -31px;
+		top: -31px;
+		span{ width: 28px; height: 28px;display: inline-block;   }
+		span.todo { background: url('../img/todo.png') no-repeat; }
+		span.discussion { background: url('../img/discussion.png') no-repeat; }
+		span.issu-tracker { background: url('../img/issu-tracker.png') no-repeat; }
+		span.wiki { background: url('../img/wiki.png') no-repeat; }
+
+	}
+	
+	h2 {margin: 24px 0 14px ; font-weight: bold; }
+
+	
+}

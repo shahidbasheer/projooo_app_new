@@ -9,10 +9,10 @@
 	    border-radius: 0;
 	    border-bottom: 1px solid #e1ebef  ;
 	    margin-bottom: 6px;
-	}
-	.navbar-default {
+}
+.navbar-default {
 		background-color: #f8fafb;
-		border-color: #e1ebefz;
+		border-color: #e1ebef;
 		.navbar-nav li { 
 			a { 
 				padding-top: 26px;
@@ -68,12 +68,11 @@
 		    color: #000;
 		    background-color: #f8fafb;
 		}
-.navbar-nav>.open>a:hover, 
-.navbar-nav>.open>a:focus {
-border: 0; 
+		.navbar-nav>.open>a:hover, 
+		.navbar-nav>.open>a:focus {
+				border: 0; 
+		}	
 
-
-}	
 	.setting {
 		background: url(../img/setting.png) no-repeat;
 		display: inline-block;
@@ -201,6 +200,134 @@ border: 0;
 
 
   
+.work-space-nav {
+margin-top: 12px;
+	.navbar {
+		    border-radius: 0;
+		    border-bottom: 1px solid #e1ebef  ;
+		    margin-bottom: 50px;
+	}
+	.navbar-default {
+			background-color: #f9fafa;
+			border-color: #d4dcde;
+			.navbar-nav li { 
+						
+						&:first-child a { 
+							border-left: 1px solid #d4dcde; 
+						}
+						&.active a, &.active:hover a, &.active:focus a { 
+							background: transparent; color: #000;  
+						}
+				
+						a { 
+							padding: 16px 28px 14px; 
+							font-size: 14px;
+							background: transparent; color: #000000; 
+							border-right: 1px solid #d4dcde; 
+							line-height: 2;
+							transition: all 0.3s ease 0s;
+							font-weight: bold;
+							&:hover, &:active { 
+								background: transparent; 
+								color: #000; 
+							}
+					}
+	
+				
+			}
+			.navbar-nav.navbar-right li a {  
+				padding-right: 70px;
+				color: #d4dcde;
+				&:hover, &:active { 
+								
+								color: #000; 
+					}
+				}
+			
+			.navbar-collapse {
+			     padding-right: 0;
+			    padding-left: 20px
+			}
+			.container-fluid {
+			       padding-right: 15px;
+	    		padding-left: 15px
+			}
+			.dropdown-menu { 
+				background: #fff;
+				    margin-top: 5px;
+				 li a {padding-bottom: 4px; }
+			}
+			.navbar-nav>.open>a, 
+			.navbar-nav>.open>a:hover, 
+			.navbar-nav>.open>a:focus {
+			    color: #000;
+			    background-color: #f8fafb;
+			}
+			.navbar-nav>.open>a:hover, 
+			.navbar-nav>.open>a:focus {
+					border-right: 1px solid #d4dcde; 
+			}	
+			
+		.workspace {
+			background: url(../img/nav/workspace.png) no-repeat;
+			display: inline-block;
+			width: 32px;
+			height: 28px;
+			vertical-align: bottom;
+			margin-right: 10px;
+		}
+
+
+		.issue-tracker {
+			background: url(../img/nav/issue-tracker.png) no-repeat;
+			display: inline-block;
+			width: 32px;
+			height: 28px;
+			vertical-align: bottom;
+			margin-right: 10px;
+		}
+
+
+
+
+		.todo-png {
+			background: url(../img/nav/todo-png.png) no-repeat;
+			display: inline-block;
+			width: 32px;
+			height: 28px;
+			vertical-align: bottom;
+			margin-right: 10px;
+		}
+
+
+		.wiki {
+			background: url(../img/nav/wiki.png) no-repeat;
+			display: inline-block;
+			width: 32px;
+			height: 28px;
+			vertical-align: bottom;
+			margin-right: 10px;
+		}
+
+
+		.discussion {
+			background: url(../img/nav/discussion.png) no-repeat;
+			display: inline-block;
+			width: 32px;
+			height: 28px;
+			vertical-align: bottom;
+			margin-right: 10px;
+		}
+
+		
+		i.setting, i.logout {
+			    margin-top: -4px;
+		}
+
+	}// end 
+
+}
+
 
 
 
