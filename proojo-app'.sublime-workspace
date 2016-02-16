@@ -4,40 +4,72 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"textarea"
+				"col-sm-",
+				"col-sm-12	 style.css"
 			],
 			[
-				"mini",
-				"min-height"
+				"colxs",
+				"col-xs-12	 style.css"
 			],
 			[
-				"pad",
-				"padding-left"
-			],
-			[
-				"marg",
-				"margin"
-			],
-			[
-				"font",
-				"font-weight"
+				"padd",
+				"padding"
 			],
 			[
 				"mar",
 				"margin-bottom"
 			],
 			[
-				"bscol",
-				"bs3-col:4	bs3-col-4"
+				"pos",
+				"pos:a	position:absolute"
 			],
 			[
-				"border",
-				"border-radius"
+				"tetd",
+				"text-decoration"
+			],
+			[
+				"wor",
+				"workspace-dash"
 			],
 			[
 				"if",
-				"ifelse	if … else …"
+				"if	if …"
+			],
+			[
+				"button_text_",
+				"button_text_2"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mini",
+				"min-height"
+			],
+			[
+				"bscol",
+				"bs3-col:4	bs3-col-4"
 			],
 			[
 				"Sess",
@@ -46,10 +78,6 @@
 			[
 				"Redir",
 				"Redirect::withInput	Redirect to URL, Route or Controller with Input"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"ps",
@@ -70,14 +98,6 @@
 			[
 				"fon",
 				"font-weight"
-			],
-			[
-				"pos",
-				"pos:r	position:relative"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"bsco",
@@ -494,31 +514,44 @@
 			[
 				"com",
 				"compass"
-			],
-			[
-				"list",
-				"glyphicon-list	 bootstrap.min.css"
-			],
-			[
-				"ul",
-				"list-unstyled"
-			],
-			[
-				"mari",
-				"margin"
-			],
-			[
-				"ser",
-				"search-form"
-			],
-			[
-				"gallery_",
-				"gallery_bottom	 gallery.css"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "sass/layout/_main.scss",
+			"settings":
+			{
+				"buffer_size": 26859,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "chekc har transplant cat",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Windows",
+				"name": "chekc har transplant cat"
+			}
+		},
+		{
+			"file": "html/workspace-dashboad.html",
+			"settings":
+			{
+				"buffer_size": 28112,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+			"settings":
+			{
+				"buffer_size": 33600,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -531,12 +564,12 @@
 				"Markdown Preview: Save to HTML"
 			],
 			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
 				"mar",
 				"Markdown Preview: Save to HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
 			],
 			[
 				"css",
@@ -676,12 +709,73 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/blog.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/footer - Copy.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/footer.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/drgvg.md",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-aesthetic-smile.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-obesity.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-hair-restoration.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-aesthetic-lasers.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-hd-body-sculpting.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-aesthetic-face.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-anti-aging.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-plastic-surgery.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-aesthetic-breast.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-aesthetic-body.php",
+		"/C/Users/Dell/Desktop/Markdown Notes/sql.md",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/_tk/header.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/twentyfourteen/header.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/functions.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/sidebars/sidebar-about-us.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/jetpack.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/wpcom.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/extras.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/customizer.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/layouts/content-sidebar.css",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/nav.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/index.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/header-landing-page.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/header.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/custom-header.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/template-parts/content-search.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/template-parts/content-none.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/template-parts/content.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/twentyfourteen/content.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/twentyfourteen/index.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/twentyfourteen/content-page.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/header.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/index-2.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-project-works-firsttimeuser.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/dr-gvg-new-wordpress/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/sidebar-right.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_brocher.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_sidebar_new_patient.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_sidebar_cta.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_sidebar_guid-international.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_sidebar_new_patience.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_special_offer.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_ask_dr_online.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_contact_numbers.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/theme_widget_about.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_download_broucher.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/sidebar.php",
+		"/F/ZTE/ZTE-Driver/Web_Driver/wordpress plugins/Snipts/theme_widget_about.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/functions.php",
+		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/footer.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-obesity.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-home.php",
+		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-testimonials.php",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/style.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-billing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-teammember.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/gulpfile.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-update-profile.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_main.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-teammeber.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-settings.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_nav.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/index-2.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/gulpfile.js",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-change-password.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/bootstrap/_buttons.scss",
@@ -689,7 +783,6 @@
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/css/simple-sidebar.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/components/_buttons.scss",
 		"/C/Users/Dell/Desktop/Font Awesome Cheatsheet_files/font-awesome.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/style.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/css/style.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/_bootstrap.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/bootstrap/_glyphicons.scss",
@@ -743,67 +836,7 @@
 		"/C/xampp/htdocs/urdu-stemmer/resources/views/prefix/view.blade.php",
 		"/C/xampp/htdocs/urdu-stemmer/resources/views/prefix/new.blade.php",
 		"/C/xampp/htdocs/urdu-stemmer/resources/views/home.blade.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/GelController.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/login-success.html",
-		"/E/Templates/html-templates/components/snippets/buttons/file.btn.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/footer.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/js/avatar-uploader/resample.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/build/DragAvatar-master/css/style.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/build/DragAvatar-master/style.css",
-		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/dasboard-board.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/uncss/css/style.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/setup-your-business.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/uncss/css/style.min.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/contact-form.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/uncss/contact-form.html",
-		"/C/Users/Dell/Desktop/dr-gvg.issue.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/signup-error.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/forget-password.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/signup.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/select-business.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/project-create.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/index.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/forgot-password.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/forgot password.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/login-seccuss.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/login.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/login-error.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/signup-error.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/nav.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/nav-2.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/components/_components.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/index.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_footer.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/base/_helpers.scss",
-		"/E/Templates/html-templates/components/snippets/modals window/Without Border.html",
-		"/C/Users/Dell/Desktop/css.menu.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/dasboard-board.txt",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/base/_globals.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/base/_variables.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/bootstrap/mixins/_forms.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/bootstrap/_forms.scss",
-		"/E/Templates/html-templates/components/snippets/Nav Menu/bootstrap-nav-default-custom/index.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/build/css/style.min.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/_components.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/_mixins.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/promagic/projoo-wordpress/sass/base/_globals.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/bootstrap/_utilities.scss",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/header-before-and-after.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-before-and-after.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-facility-tour.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/js/main.js",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/header.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-aesthetic-breast.php",
-		"/C/xampp/htdocs/drgvg/team-members.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-team-members.php",
-		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-drgunasekarvuppalapati.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/sass/style.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/sass/_mixins.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/dr-gvg-new-wordpress/sass/style.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/css/semantic.min.css",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/_layout.scss",
-		"/F/ZTE/ZTE-Driver/Web_Driver/tools/bootstrap-master/bootstrap-sass-3.3.5/bootstrap-sass-3.3.5/assets/stylesheets/_bootstrap.scss"
+		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/GelController.php"
 	],
 	"find":
 	{
@@ -822,6 +855,82 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"orrage\">",
+			"$orange",
+			"$green",
+			"$orange",
+			"12px",
+			".ws__discuss",
+			"sculp",
+			"hair-restoration",
+			"sidebar-",
+			"anti",
+			"nav",
+			"wp nav",
+			"primary",
+			"anti",
+			"Drgvg_brocher",
+			"Brochure",
+			"right",
+			"DRGVG New Patience",
+			"New_patience",
+			"AESTHETIC",
+			"Drgvg_aesthetic",
+			"require get_template_directory() . '/inc/widgets/widget_sidebar_cta.php';",
+			"button_text",
+			"dr_msg",
+			"GVG Ask Dr Online",
+			"Ask_Dr_onine",
+			"dr_msg",
+			"button_text",
+			"Ask Dr Online",
+			"Ask_Dr_onine",
+			"Projo_about_Widget",
+			"require get_template_directory() . '/inc/widgets/widget_brocher.php';",
+			"dr_msg",
+			"about_us_text",
+			"title",
+			"Projo_about_Widget",
+			"title",
+			"button_text",
+			"btn-text",
+			"about_us_text",
+			"Drgvg_contact_widget",
+			"Drgvg_helpline_number",
+			"Drgvg_helpline_title",
+			"breast_helpline_number",
+			"breast_helpline_title",
+			"Drgvg_helpline_title",
+			"breast_helpline_title",
+			"Drgvg_helpline_number",
+			"Drgvg_helpline_title",
+			"Drgvg_helpline_number",
+			"Drgvg_helpline_title",
+			"breast_helpline_number",
+			"breast_helpline_title",
+			"breast_helpline_number",
+			"breast_helpline_title",
+			"about_us_text",
+			"breast_helpline",
+			"title",
+			"Projo_about_Widget",
+			"<?php echo  theme_root . '/'; ?>images/",
+			"hair",
+			"50px",
+			".p-w-space__heade",
+			"p-w-space__header",
+			"24px",
+			"25px",
+			"wiki",
+			"workspace",
+			"todo",
+			"15px",
+			"nav",
+			"h1",
+			"content-page",
+			"new-project-form-wrap",
+			"First Name",
+			"row",
 			"uncss",
 			"Input field",
 			"bullet",
@@ -873,83 +982,7 @@
 			"on click",
 			"[",
 			".setup-your-business-wrap",
-			"error-notify",
-			"h2",
-			"busi_work_place",
-			"<option value=\"\">Center</option>",
-			".busi_work_place",
-			"Select ",
-			".content-page",
-			"logout",
-			"Name",
-			"h4",
-			"5>",
-			"h5",
-			"hightlight-bg",
-			"new-project-form-wrap",
-			"busi_work_place",
-			"busi_work_place ",
-			"fa fa-check-circle-o",
-			"fa",
-			"error-notify",
-			"h4",
-			"arrow_box",
-			"dropdown-menu",
-			"new-project-form-wrap",
-			"border-top-right-radius",
-			"glyphicon glyphicon-cog",
-			"h3",
-			"orang",
-			"21ba45",
-			"btn.success",
-			"A5000 - 5.0 - 8 GB - 1 GB RAM - 1,3 GHz Quad Core - 8 MP Camera - Black\nLenovo \nA5000 - 5.",
-			"dropzon-label",
-			"Input field",
-			"form",
-			"input-border-radius",
-			"-30px",
-			"AvenirLTStd-Book",
-			"000db6",
-			"20",
-			"10",
-			"Input field",
-			"brand-danger",
-			"9",
-			"label",
-			"input-height-base",
-			"form-control-focus",
-			"input-bg",
-			"$theme_root",
-			"images/",
-			"head-",
-			"2200",
-			"blockqoute",
-			"height",
-			"sidebar-right",
-			"height",
-			"images/",
-			"light",
-			"#",
-			"class=\"active\"",
-			"sidebar-left",
-			".intro",
-			"submitForm_2",
-			"thanks'",
-			"Your have been Subscibed!",
-			"intro",
-			".intro",
-			"<option value=",
-			"@import",
-			"import",
-			"coamps",
-			"heading",
-			"20",
-			"m-t-30",
-			"uncss",
-			"#footer",
-			"h2",
-			"< ",
-			"fa-arrow-right"
+			"error-notify"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -957,6 +990,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"breast_helpline_number",
+			"breast_helpline_title",
+			"http://www.wordpress.drgvg.co.in/wp-content/themes/drgvg/images/",
+			"http://www.wordpress.drgvg.co.in/wp-content/themes/drgvg/images/\n",
 			"theme_root\n",
 			"<?php echo  $theme_root . '/'; ?>images/\n",
 			"<option value=\n",
@@ -1054,8 +1091,435 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "sass/layout/_main.scss",
+					"settings":
+					{
+						"buffer_size": 26859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26856,
+								26856
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17405.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"auto_name": "chekc har transplant cat",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/workspace-dashboad.html",
+					"settings":
+					{
+						"buffer_size": 28112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3111,
+								3111
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 845.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+					"settings":
+					{
+						"buffer_size": 33600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7347,
+								7347
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3422.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1107,6 +1571,10 @@
 			[
 				"nav",
 				"sass/layout/_nav.scss"
+			],
+			[
+				"main",
+				"sass/layout/_main.scss"
 			],
 			[
 				"button",
@@ -1175,10 +1643,6 @@
 			[
 				"form",
 				"sass/bootstrap/_forms.scss"
-			],
-			[
-				"main",
-				"sass/layout/_main.scss"
 			],
 			[
 				"html",
