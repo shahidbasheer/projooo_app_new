@@ -1621,7 +1621,7 @@
 	header{
 		    padding: 16px 20px;
 		border-bottom: 1px solid #ddd; 
-		h4 {margin: 0; font-weight: bold; }
+		h4 {margin: 0; font-weight: bold; color: #000;  }
 
 	}
 
@@ -1634,7 +1634,8 @@
 	footer{
 		    padding: 16px 20px;
 		background: #ededed;
-		p {margin-bottom: 0; color: #59595a; font-size: 14px; display: inline-block; margin-right: 6px;  }
+		p {margin-bottom: 0; color: #59595a; font-size: 14px; display: inline-block; margin-right: 6px; font-weight: bold;  }
+		a.blue-underline {display: inline-block; font-weight: bold; font-size: 14px; }
 
 	}
 
@@ -1659,18 +1660,24 @@
 	}
 	.Editor-container {
     border: 1px solid #ddd;
-    border-radius: 3px; 
+    border-radius: 3px;
+    .btn {
+        font-weight: normal;
+               padding: 8px 10px; 
+    	}
 	}
-
+	.dropzone .dz-message {
+	    font-size: 24px;
+	}
 	.dropzone {
 	    min-height: 200px;
 	    border: 1px solid #dededf;
 	    background: white;
 	    border-radius: 3px;
 	    margin-top: 27px;
-	    padding-bottom: 335px;
-	    margin-bottom: -359px;
-	    max-height: 314px;
-	}
+	        padding-bottom: 291px;
+    margin-bottom: -390px;
+    max-height: 284px; 
+}
 	
 }
