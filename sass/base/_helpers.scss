@@ -143,3 +143,18 @@ z
 .inline-element {
 	display: inline !important;
 }
+
+
+@mixin border($br:1px, $bcolor: #ddd ) {
+ 	border: $br solid $bcolor;  
+}
+
+
+@mixin inline-block($w:50px, $h: 50px ) {
+ 	display: inline-block;
+ 	width: $w;
+ 	height: $h;
+
+
+
+}
