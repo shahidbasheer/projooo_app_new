@@ -214,6 +214,9 @@ margin-top: 12px;
 						
 						&:first-child a { 
 							border-left: 1px solid #d4dcde; 
+								@include breakpoint ($sm) {
+									border-left: 0; 	
+								}
 						}
 						&.active a, &.active:hover a, &.active:focus a { 
 							background: transparent; color: #000;  
@@ -221,9 +224,15 @@ margin-top: 12px;
 				
 						a { 
 							padding: 16px 28px 14px; 
+								@include breakpoint ($md) {
+									    padding: 16px 22px 14px;	
+								}
 							font-size: 14px;
 							background: transparent; color: #000000; 
 							border-right: 1px solid #d4dcde; 
+								@include breakpoint ($sm) {
+									border-right: 0; 	
+								}
 							line-height: 2;
 							transition: all 0.3s ease 0s;
 							font-weight: bold;
@@ -234,6 +243,11 @@ margin-top: 12px;
 					}
 	
 				
+			}
+			.navbar-nav.navbar-right {
+					@include breakpoint ($sm) {
+						float: none !important; 	
+					}
 			}
 			.navbar-nav.navbar-right li a {  
 				padding-right: 70px;
