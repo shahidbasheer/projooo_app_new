@@ -1,6 +1,6 @@
 # Proojo New App
 
-http://fiberelephant.com/proojo_new_app 		<br>
+http://fiberelephant.com/proojo_new_app/index-2.html 		<br>
 
 http://fiberelephant.com/proojo_new_app/login.html 						<br>
 http://fiberelephant.com/proojo_new_app/login-error.html 				<br>
@@ -35,10 +35,10 @@ http://fiberelephant.com/proojo_new_app/create-project-works-firsttimeuser.html 
 __New__
 http://fiberelephant.com/proojo_new_app/workspace-dashboad.html <br>
 __New__
-http://fiberelephant.com/proojo_new_app/create-project-works-discussion.html <br> == icon pending input pending.
+http://fiberelephant.com/proojo_new_app/create-project-works-discussion.html <br> 
 
 __New__
-http://fiberelephant.com/proojo_new_app/create-topic-discussion.html <br>
+http://fiberelephant.com/proojo_new_app/create-topic-discussion.html <br> == icon pending 
 
 
 
