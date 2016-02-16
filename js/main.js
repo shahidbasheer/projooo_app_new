@@ -1,4 +1,18 @@
 jQuery(document).ready(function($) {
+
+	$('.fake-uploader').on('click', function(event) {
+		event.preventDefault();
+		 $('#editor-file').click();
+	});
+
+	$('#editor-file').on('change', function () {
+		var filename = $('#editor-file').val().split('\\').pop() || 'No file selected.';
+	    console.log(filename );
+	    $('.file-name').text(filename);
+	});
+
+
+
 	$('.form-show').on('click',  function(event) {
 
 		console.log('clicked');

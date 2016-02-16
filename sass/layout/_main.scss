@@ -1414,6 +1414,14 @@
 					padding: 6px 31px;
 					border-radius: 0; 
 				}
+				.fake-uploader {
+					margin-right: 12px; 
+				}
+				#editor-file {
+					position: absolute; 
+					top: 9999px;
+					left:  9999px; 
+				}
 			}
 		}
 
