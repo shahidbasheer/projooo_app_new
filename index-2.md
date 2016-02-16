@@ -40,5 +40,8 @@ http://fiberelephant.com/proojo_new_app/create-project-works-discussion.html <br
 __New__
 http://fiberelephant.com/proojo_new_app/create-topic-discussion.html <br> == icon pending 
 
+__New__
+http://fiberelephant.com/proojo_new_app/create-new-discussion-thred.html.html <br> 
+
 
 

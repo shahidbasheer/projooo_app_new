@@ -1675,9 +1675,10 @@
 	    background: white;
 	    border-radius: 3px;
 	    margin-top: 27px;
-	        padding-bottom: 291px;
-    margin-bottom: -390px;
-    max-height: 284px; 
+    	height: 284px; 
+    		@include breakpoint ($lg) {
+    			    height: 312px;	
+    		}
 }
 	
 }

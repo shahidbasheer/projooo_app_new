@@ -47,7 +47,18 @@ jQuery(document).ready(function($) {
 	    $("#wrapper").toggleClass("toggled");
 	});
 	
+		// resize dropfile div
+		resizeDropfile();
+		setTimeout(function(){ resizeDropfile(); }, 200);
+		$( window ).resize(function() {
+		 	resizeDropfile();
+		});
 
+		function resizeDropfile () {
+			var heigh = $(".thread-content .left").height();
+			console.log(heigh);
+				      $(".thread-editor .dropzone").css("height",heigh-28);
+		}
 
 
 	$("#txtEditor").Editor();
