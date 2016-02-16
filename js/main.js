@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 
 
 
-	
+	$("#txtEditor").Editor();
 
 
 	//dropzon 

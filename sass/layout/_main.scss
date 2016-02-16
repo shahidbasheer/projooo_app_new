@@ -1593,11 +1593,84 @@
 	    	.bnt-payment-paid {
 	    		color: #00920a;
 		    	text-decoration: none;
-		    	font-size: 24px; 
+		    	font-size: 30px; 
 		    	text-align: center; 
 	    	}
 
 	    }
 
 
+}
+
+
+
+.create-thread {
+	padding: 30px;
+	min-height: 1200px;
+	margin-bottom: 100px;
+	.btn.btn-success {
+		margin-top: 25px; 
+		width: 500px; 
+	} 
+
+}//end topic-disucss
+
+.thread-editor {
+	@include border(1px, #d7d7d7);
+	border-radius: 2px;
+	header{
+		    padding: 16px 20px;
+		border-bottom: 1px solid #ddd; 
+		h4 {margin: 0; font-weight: bold; }
+
+	}
+
+	
+	.thread-content{
+		padding: 20px; 
+	}
+
+	
+	footer{
+		    padding: 16px 20px;
+		background: #ededed;
+		p {margin-bottom: 0; color: #59595a; font-size: 14px; display: inline-block; margin-right: 6px;  }
+
+	}
+
+	#menuBarDiv, #statusbar {
+	    background-color: transparent !important; 
+	    background-image: none;
+	   
+	    background-repeat: repeat-x;
+	    border: 0 !important;
+	    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	    border-bottom-color: #b3b3b3;
+	    filter: none;
+	    filter: none;
+	}
+	.Editor-editor {
+	    height: 100px;
+	    padding: 1%;
+	    border: 0;
+	    border-radius: 0;
+	    word-wrap: break-word;
+	}
+	.Editor-container {
+    border: 1px solid #ddd;
+    border-radius: 3px; 
+	}
+
+	.dropzone {
+	    min-height: 200px;
+	    border: 1px solid #dededf;
+	    background: white;
+	    border-radius: 3px;
+	    margin-top: 27px;
+	    padding-bottom: 335px;
+	    margin-bottom: -359px;
+	    max-height: 314px;
+	}
+	
 }
