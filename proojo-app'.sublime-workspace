@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
 				"mar",
-				"margin"
+				"margin-top"
+			],
+			[
+				"bore",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"form",
+				"form-group	 style.css"
+			],
+			[
+				"bsform",
+				"bs3-form:label	bs3-form-label"
+			],
+			[
+				"bsco",
+				"bs3-col:6	bs3-col-6"
 			],
 			[
 				"bsinpu",
@@ -32,16 +60,8 @@
 				"margin-right"
 			],
 			[
-				"font",
-				"font-weight"
-			],
-			[
 				"medi",
 				"media-body"
-			],
-			[
-				"pad",
-				"padding-left"
 			],
 			[
 				"border",
@@ -84,10 +104,6 @@
 				"button_text_2"
 			],
 			[
-				"marg",
-				"margin-right"
-			],
-			[
 				"mini",
 				"min-height"
 			],
@@ -118,10 +134,6 @@
 			[
 				"bs",
 				"bs3-row	bs3-row"
-			],
-			[
-				"bsco",
-				"bs3-col:9	bs3-col-9"
 			],
 			[
 				"ma",
@@ -254,10 +266,6 @@
 			[
 				"have",
 				"have_posts"
-			],
-			[
-				"form",
-				"form-control"
 			],
 			[
 				"borde",
@@ -506,26 +514,51 @@
 			[
 				"Tod",
 				"TodosController"
-			],
-			[
-				"padding",
-				"padding"
-			],
-			[
-				"col",
-				"col-sm-11	 bootstrap.min.css"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "chekc har transplant cat",
+			"contents": "chekc har transplant cat\n\n\nchange nav heading in app setting ",
 			"settings":
 			{
-				"buffer_size": 24,
+				"buffer_size": 61,
 				"line_ending": "Windows",
 				"name": "chekc har transplant cat"
+			}
+		},
+		{
+			"file": "sass/layout/_main.scss",
+			"settings":
+			{
+				"buffer_size": 37244,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 1599,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 8397,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<script>\n    $(document).ready(function() {\n        var height = Math.max($(\"#left\").height(), $(\"#right\").height());\n        $(\"#left\").height(height);\n        $(\"#right\").height(height);\n    });\n</script>\n\n\nvar rightHeight = document.getElementById('right').clientHeight;\nvar leftHeight = document.getElementById('left').clientHeight;\nif (leftHeight > rightHeight) {\ndocument.getElementById('right').style.height=leftHeight+'px';\n} else {\ndocument.getElementById('left').style.height=rightHeight+'px';\n}\n\n\n  var heigh = $(\".thread-content .left\").height();\n        $(\".thread-editor .dropzone\").css(\"height\",heigh-28);\n\n$('.remove .bubble i\")",
+			"settings":
+			{
+				"buffer_size": 644,
+				"line_ending": "Windows",
+				"name": "<script>"
 			}
 		}
 	],
@@ -536,16 +569,16 @@
 		"selected_items":
 		[
 			[
-				"sas",
-				"Set Syntax: Sass"
+				"mar",
+				"Markdown Preview: Save to HTML"
 			],
 			[
 				"mark",
 				"Markdown Preview: Save to HTML"
 			],
 			[
-				"mar",
-				"Markdown Preview: Save to HTML"
+				"sas",
+				"Set Syntax: Sass"
 			],
 			[
 				"html",
@@ -672,7 +705,7 @@
 				"HTMLBeautify"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -689,16 +722,39 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_main.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-topic-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/signup-error.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/nav.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-update-profile.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-teammember.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-new-discussion-thred-remove.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/side-nav.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/index-2.md",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/js/main.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/base/_helpers.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_nav.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/components/_buttons.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/mixins/_buttons.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/nav-2.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/nav-3.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-billing.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-change-password.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-settings.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-new-discussion-thread-remove.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-new-discussion-thread.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-project-works-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-project-works-firsttimeuser.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-topic-discussion.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/dasboard-board.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/workspace-nav.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-new-discussion-thred.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/project-create.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/footer.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/header.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/promagic/sass/layout/_main.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/js/main.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/components/_buttons.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/promagic/js/main.js",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_nav.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/layout/_main.scss",
+		"/C/Users/Dell/Desktop/Markdown Notes/rohit.md",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/forget-password.html",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/base/_helpers.scss",
+		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/mixins/_buttons.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/base/_globals.scss",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/workspace-dashboad.html",
 		"/C/xampp/apps/wordpress/htdocs/wp-content/themes/projoo_theme/header.php",
@@ -738,7 +794,6 @@
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/twentyfourteen/index.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/twentyfourteen/content-page.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/_s/header.php",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/create-project-works-firsttimeuser.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/dr-gvg-new-wordpress/gulpfile.js",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/sidebar-right.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/inc/widgets/widget_brocher.php",
@@ -759,16 +814,10 @@
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-home.php",
 		"/C/xampp/htdocs/wordpress_drgvg/wp-content/themes/drgvg_in_theme/page-testimonials.php",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/style.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-billing.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-teammember.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-update-profile.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-teammeber.html",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-settings.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/Dropbox/empty-html-project/gulpfile.js",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/app-change-password.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/sass/bootstrap/_buttons.scss",
-		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/html/html_Moudles/header.html",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/css/simple-sidebar.css",
 		"/C/Users/Dell/Desktop/Font Awesome Cheatsheet_files/font-awesome.css",
 		"/C/xampp/htdocs/my_gulp_work_flow/proojo-app-new/css/style.css",
@@ -800,23 +849,7 @@
 		"/C/xampp/htdocs/urdu-stemmer/app/ACLalif.php",
 		"/C/xampp/htdocs/urdu-stemmer/resources/views/aclteh/update.blade.php",
 		"/C/xampp/htdocs/urdu-stemmer/app/ACLheh.php",
-		"/C/xampp/htdocs/urdu-stemmer/resources/views/aclheh/update.blade.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/PostfixController.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/PrefixController.php",
-		"/C/xampp/htdocs/urdu-stemmer/resources/views/postfix/view.blade.php",
-		"/C/xampp/htdocs/urdu-stemmer/resources/views/dashboard.blade.php",
-		"/C/xampp/htdocs/urdu-stemmer/resources/views/addcharlist.php",
-		"/C/xampp/htdocs/urdu-stemmer/database/migrations/2016_02_13_082114_ACLyi.php",
-		"/C/xampp/htdocs/urdu-stemmer/database/migrations/2016_02_13_082101_ACLteh.php",
-		"/C/xampp/htdocs/urdu-stemmer/database/migrations/2016_02_13_082039_ACLalif.php",
-		"/C/xampp/htdocs/urdu-stemmer/database/migrations/2016_02_13_082435_ACLheh.php",
-		"/C/xampp/htdocs/urdu-stemmer/database/migrations/2016_02_03_163719_create_prefixes_table.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/AdminController.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/RedirectIfAuthenticated.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Middleware/Authenticate.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/Auth/PasswordController.php",
-		"/C/xampp/htdocs/urdu-stemmer/app/Http/Controllers/Auth/AuthController.php",
-		"/C/xampp/htdocs/urdu-stemmer/resources/views/auth/login.blade.php"
+		"/C/xampp/htdocs/urdu-stemmer/resources/views/aclheh/update.blade.php"
 	],
 	"find":
 	{
@@ -835,6 +868,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"__New__\nhttp://fiberelephant.com/proojo_new_app/create-new-discussion-thred.html.html <br> ",
+			"footer",
+			"4",
+			"8",
+			"6",
+			"col-sm-6",
+			"col-md-6",
+			"xs-6",
+			"topic-discuss",
+			"nav-check",
+			"setting.png",
+			"notify",
 			"height",
 			"input2",
 			".btn-default-3 {\n  @include button-variant( #949494 , #e9e9e9 , #e9e9e9 );\n}",
@@ -950,19 +995,7 @@
 			"h2",
 			"new_acl_alif",
 			"postfix-",
-			"Route::post('/newaclalif', 'ADCController@new_acl_alif');",
-			"12",
-			"9",
-			"doLogin",
-			"lwo",
-			"Gelword",
-			"findgel",
-			"input {margin-bottom: 26px; }",
-			"logign-form-wraper",
-			"cearfix",
-			"success-notify-loging\nsuccess-notify-loging",
-			"success-notify-loging",
-			"mistake_notify"
+			"Route::post('/newaclalif', 'ADCController@new_acl_alif');"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1071,14 +1104,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"settings":
 					{
-						"buffer_size": 24,
+						"buffer_size": 61,
 						"regions":
 						{
 						},
@@ -1101,6 +1134,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1200,6 +1237,416 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/layout/_main.scss",
+					"settings":
+					{
+						"buffer_size": 37244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36287,
+								36287
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 24470.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 1599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1479,
+								1479
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 529.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 8397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4515,
+								4515
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2250.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								644,
+								644
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<script>",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1250,6 +1697,14 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"button",
+				"sass/components/_buttons.scss"
+			],
+			[
 				"nav",
 				"sass/layout/_nav.scss"
 			],
@@ -1262,16 +1717,8 @@
 				"sass/base/_helpers.scss"
 			],
 			[
-				"button",
-				"sass/components/_buttons.scss"
-			],
-			[
 				"gl",
 				"sass/base/_globals.scss"
-			],
-			[
-				"main",
-				"sass/layout/_main.scss"
 			],
 			[
 				"butn",
