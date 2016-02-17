@@ -1009,7 +1009,9 @@
 	  			border-bottom: 1px solid #ddd;
 	  			color: #000;
 	  			span {margin-right: 10px; font-weight: bold; }
-	  			span a { color: #328600; text-decoration: none;  &:hover { color: #328600; }  font-weight: bold;}
+	  			//span a { color: #328600; text-decoration: none;  &:hover { color: #328600; }  font-weight: bold;}
+	  			  a.blue-underline {display: inline-block; font-weight: bold; font-size: 14px; }
+
 	  		}
 	  		.ws__tasks__inner {
 	  			border: 1px solid #ddd; 
@@ -1111,7 +1113,7 @@
 			i { position: absolute; left: 26px; top: 16px; font-size: 18px; color: #808080; }
 		}
 		a.new-issue {font-size: 14px; }
-		.form-control {margin-bottom: 0; padding: 0;  }
+		.form-control {margin-bottom: 0; padding-top: 10px;  }
 
 		::-webkit-input-placeholder { /* WebKit, Blink, Edge */
 		    color:    #808080;
@@ -1348,7 +1350,7 @@
 	
 
 	.editing-area {
-		max-width: 800px; 
+		max-width: 100%; 
 		padding-bottom: 50px; 
 		
 		.media-left, .media > .pull-left {
