@@ -89,7 +89,7 @@ var gulp = require('gulp'),
 		    '*.html*'
 		    
 		])
-		.pipe(gulp.dest('build/'));'use strict';
+		.pipe(gulp.dest('build-2/'));'use strict';
 	});
 
 	gulp.task('remove-hml-comments', function () {
