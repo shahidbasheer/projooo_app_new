@@ -1644,6 +1644,11 @@
 		 a.blue-underline {display: inline-block; font-weight: bold; font-size: 14px; }
 		 .members {margin-top: 20px; padding-left: 10px }
 		span.bubble {color: #59595a; background: #f1f1f1; padding:4px 8px; border-radius: 10px; margin-bottom: 6px; font-weight: bold; font-size: 12px;     display: inline-block;     margin-right: 4px;}		
+		span.bubble i { margin-left: 4px; 
+				&:hover, &:focus {
+					color: #000; 
+				}
+		 }
 	}
 	
 

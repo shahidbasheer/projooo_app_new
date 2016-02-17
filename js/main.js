@@ -63,6 +63,10 @@ jQuery(document).ready(function($) {
 
 	$("#txtEditor").Editor();
 
+	// remove member
+	$(".remove .bubble i").on('click', function(event) {
+		$(this).parent().fadeOut()
+	});
 
 	//dropzon 
 	var myDropzone = new Dropzone("div#dropzone", { url: "file-upload"});

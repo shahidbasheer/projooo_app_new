@@ -41,9 +41,9 @@ __New__
 http://fiberelephant.com/proojo_new_app/create-topic-discussion.html <br> == icon pending 
 
 __New__
-http://fiberelephant.com/proojo_new_app/create-new-discussion-thred.html <br>
+http://fiberelephant.com/proojo_new_app/create-new-discussion-thread.html <br>
  __New__
-http://fiberelephant.com/proojo_new_app/create-new-discussion-thred-remove.html <br> 
+http://fiberelephant.com/proojo_new_app/create-new-discussion-thread-remove.html <br> 
 
 
 
