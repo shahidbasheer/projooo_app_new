@@ -19,24 +19,7 @@
                                     <span class="bullet">10 Archieve</span>
 
                                 </header>
-                                  <ul class="sidebar-nav list-unstyled">
-                                      
-                                      <li>
-                                          <a href="app-settings.html">General Settings</a>
-                                      </li>
-                                      <li>
-                                          <a href="app-teammember.html">Team Members</a>
-                                      </li>
-                                      <li>
-                                          <a href="app-billing.html">Billing & Invoice</a>
-                                      </li>
-                                      <li>
-                                          <a href="app-change-password.html">Change Password</a>
-                                      </li>
-                                      <li>
-                                          <a href="app-update-profile.html">Update Profile</a>
-                                      </li>                                    
-                                  </ul>
+                                   <!-- @include html_Moudles/side-nav.html -->    
                               </div>
                               <!-- /#sidebar-wrapper -->
 
@@ -88,7 +71,7 @@
                                                    </td>
 
                                                    <td>
-                                                    <a href="" ><span class="view"></span></a>
+                                                    <a href="" data-toggle="modal" data-target="#invoice-modal-2"><span class="view"></span></a>
                                                     
                                                    </td>
                                                  </tr>
@@ -104,7 +87,7 @@
                                                    </td>
 
                                                    <td>
-                                                    <a href="" ><span class="view"></span></a>
+                                                    <a href="" data-toggle="modal" data-target="#invoice-modal-2" ><span class="view"></span></a>
                                                     
                                                    </td>
                                                  </tr>
@@ -239,6 +222,8 @@
                                  <footer class="text-center">
                                    <a href="" class="bnt-payment">Click here Make Payment Online</a>
 
+                                  
+
                                    <p class="footer-note center-block">
                                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
@@ -251,7 +236,88 @@
                              
                             </div>
                           </div>
-                        </div>
+                        </div> <!-- modal -->
+
+
+                        <div class="modal fade in" id="invoice-modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+                          <div class="modal-dialog" role="document" style="max-width: 956px; width: 100%; ">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X-Close</span>
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">Invoice</h4>
+                              </div>
+                              <div class="modal-body">
+                               
+                               <div class="invoce-header">
+                                    <div class="row">
+                                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                        <h5>Your Billing Address</h5>
+                                        <p>299 Retreate Avenu</p>
+                                        <p>Bimingham, AL 35230</p>
+                                      </div>
+
+                                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                                       <div class="pull-right">
+                                         <h5>Date of Invoice: 10th May 2014</h5>
+                                         <p>
+                                           <strong>Status</strong>
+                                           <span class="green">Paid or</span>
+                                           <span class="red">Pending</span>  </p>
+                                       </div>
+                                      </div>
+                                    </div>  <!-- row -->     
+                               </div>  <!-- invoce-header -->
+
+                               <div class="invoice-table">
+                                  
+                                  <table class="table">
+                                    <thead>
+                                      <tr><th>Items Descriptions</th>
+                                      <th class="text-right">Cost</th>
+                                    </tr></thead>
+                                    
+                                    <tbody>
+                                     
+                                      <tr class="t-body">
+                                        <td class="">Subscrttiopn: May 2015</td>
+                                        <td class="text-right">$11.99</td>
+                                      </tr>
+
+                                       <tr class="coupen">
+                                        <td class="">Coupen : XYZ</td>
+                                        <td class="text-right" style=" padding-bottom: .5em;">-$2.99</td>
+                                      </tr>
+
+                                       <tr><th class="noborder"></th></tr>
+
+                                      <tr class="total">
+                                        <td> Total Payment  </td>
+                                        <td class="text-right"> $ 9.90 </td>
+                                      </tr>
+
+                                    </tbody>                     
+
+                                  </table>
+
+                                 <footer class="text-center">
+                                   <!-- <a href="" class="bnt-payment">Payment Transcation ID : 234234323232 ( 10th May 2015 at 11:30 AM )</a> -->
+
+                                    <p class="bnt-payment">Payment Transcation ID : 234234323232 ( 10th May 2015 at 11:30 AM )</p>
+
+                                   <p class="footer-note center-block">
+                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                   </p>
+                                 </footer>
+                                 
+                               </div> <!-- table -->                         
+                              </div>
+                      
+                             
+                            </div>
+                          </div>
+                        </div> <!-- modal -->
        
     <footer class="site-footer">
       

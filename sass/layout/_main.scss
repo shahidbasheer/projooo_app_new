@@ -299,7 +299,8 @@
 	//float: left;
 	//margin-right: 40px; 
 	text-align: left;
-	display: inline-block ; 
+	display: inline-block ;
+	cursor: pointer;
 		@include breakpoint ($xs) {
 				margin-right: auto;
 				margin-left: auto;
@@ -1481,7 +1482,7 @@
 
 
 //invoice Modal
-#invoice-modal, #invoice-modal-complete {
+#invoice-modal, #invoice-modal-complete , #invoice-modal-2 {
 
 	.invoce-header {
 		margin-bottom: 20px; 
@@ -1583,6 +1584,13 @@
 		    	text-align: center; 
 		    	
 
+	    	}
+	    	p.bnt-payment {
+	    			color: #0b009e;
+		    	text-decoration: underline;
+		    	font-size: 26px; 
+		    	text-align: center;
+		    	display: inline;
 	    	}
 	    	p  {
 	    		text-align: center;
