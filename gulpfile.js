@@ -169,7 +169,7 @@ var gulp = require('gulp'),
 
 	gulp.task('html', function() {
 	  return  gulp.src( htmlSource )
-	  	.pipe(changedInPlace())
+	  	//.pipe(changedInPlace())
 	  	.pipe(preprocess())
 	    .pipe(gulp.dest( htmlDest ))
 	});
