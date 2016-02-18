@@ -9921,13 +9921,14 @@ z
 
 .ws__tasks .todo {
   margin-left: 12px;
+  margin-bottom: 10px;
 }
 
 .ws__tasks a.notes {
   display: inline-block;
   font-size: 16px;
   color: #000;
-  text-decoration: underline;
+ /* text-decoration: underline; */
 }
 
 .ws__tasks a.more {
