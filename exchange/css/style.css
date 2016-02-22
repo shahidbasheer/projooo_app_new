@@ -1298,14 +1298,14 @@ a.logo {
   width: 38%;
 }
 .list-due__table .bubble {
-  background: #ddd;
   padding: 3px 15px;
-  color: #000;
   border-radius: 63px;
   min-width: 70px;
   display: inline-block;
   margin-bottom: 6px;
   margin-right: 2px;
+  font-size: 12px;
+  font-weight: bold;
 }
 .list-due__table .more {
   color: blue;
@@ -1313,14 +1313,27 @@ a.logo {
 }
 
 .list-due__table__bubble {
-  background: #ddd;
   padding: 3px 15px;
-  color: #000;
   border-radius: 63px;
   min-width: 70px;
   display: inline-block;
   margin-bottom: 6px;
   margin-right: 2px;
+}
+
+.tbl__bubble--green {
+  background: #77e502;
+  color: #000;
+}
+
+.tbl__bubble--blue {
+  background: #4052fb;
+  color: #fff;
+}
+
+.tbl__bubble--red {
+  background: #692828;
+  color: #fff;
 }
 
 #list-due-modal .modal-content {
